@@ -10,7 +10,7 @@ This table includes commonly used frequencies for general, tactical, and hiking 
 | 4       | 462.6375         | Emergency coordination    |
 | 5       | 462.6625         | Hiking group communication|
 | 6       | 462.6875         | Weather updates           |
-| 7       | 462.7125         | Reserved for FM radio     |
+| 7       | 446.09375        | PMR446-compliant          |
 
 ---
 
@@ -22,8 +22,8 @@ This table includes commonly used frequencies for general, tactical, and hiking 
 2. **Channel 6 (Weather Updates)**:
    - Tune to this channel for NOAA weather updates or other regional weather services.
    
-3. **Channel 7 (FM Radio)**:
-   - Non-critical communication or entertainment.
+3. **Channel 7 (PMR446-compliant)**:
+   - Adjusted for use in Switzerland and Europe for compliance.
 
 ---
 
