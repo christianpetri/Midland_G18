@@ -1,0 +1,54 @@
+# Midland G18 Repository .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Text Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Programming Software Backups
+*.g18bak
+*.codeplug
+*.dat
+
+# Documentation Build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+node_modules/
+
+# Personal Configuration Files
+personal_config/
+my_settings/
+user_profiles/
+
+# Log Files
+*.log
+logs/
+
+# Archives
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# PDF working files (keep only final manuals)
+~$*.pdf
+*.pdf~
