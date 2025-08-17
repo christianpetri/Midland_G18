@@ -6,9 +6,9 @@ No, you cannot.
 
 There are two primary reasons why you can't listen to the 462.6875 MHz frequency on your Midland G18 radio in Switzerland:
 
-1. **Technical Limitation**: The Midland G18 is a PMR446 radio. It is designed to operate exclusively on the frequencies within the 446.0 to 446.2 MHz band. It is not a wideband scanner and cannot be tuned to listen to frequencies outside of its designated operating range.
+1. **Technical Limitation**: The Midland G18 is specifically designed as a PMR446 radio. It operates exclusively within the 446.0 to 446.2 MHz frequency range, in compliance with European regulations. It does not have the capability to tune into frequencies outside this limited range, such as 462.6875 MHz.
 
-2. **No Broadcasts**: The frequency 462.6875 MHz is part of the FRS (Family Radio Service) band, which is used for two-way radio communication in North America. There are no weather broadcasts or any other standardized radio transmissions on this frequency in Switzerland or anywhere else in Europe.
+2. **Broadcast Restrictions**: The 462.6875 MHz frequency is allocated to the FRS (Family Radio Service) band, which is used for two-way radio communication in North America. In Switzerland and the rest of Europe, this frequency is not designated for public communication, and there are no weather broadcasts or other standardized transmissions available on it.
 
 ---
 
