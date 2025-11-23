@@ -21,13 +21,15 @@ communications.
 
 ## Key Features
 
-### Noise Cancelling TX (New)
+### Noise Cancelling TX (New) – Hardware Feature
 
 **Purpose**: Reduce background noise during transmission for clearer audio to
 recipients.
 
+**Hardware Requirement**: Enhanced signal processing chip (NC variant only)
+
 - **Feature ID**: `id_1078` (Noise Cancelling TX)
-- **Status**: Programmable via PRG-G15 software
+- **Available On**: G18-PRO NC only (not compatible with standard G18-PRO)
 - **Benefit**: Improves voice clarity in noisy environments (vehicles, industrial
   sites, tactical operations)
 
@@ -37,12 +39,15 @@ recipients.
 Channel → Optional Features → Noise Cancelling TX → [On/Off]
 ```
 
-### Dual Watch (DW)
+### Dual Watch (DW) – Hardware Feature
 
 **Purpose**: Monitor two channels simultaneously without manual switching.
 
+**Hardware Requirement**: Dual receiver chipset (NC variant only)
+
 - **Feature ID**: `id_F` (DW in key functions)
 - **Configuration**: `D.W.main CH` (Dual Watch main channel)
+- **Available On**: G18-PRO NC only (not compatible with standard G18-PRO)
 - **Use Cases**:
   - Monitor primary tactical channel + secondary command channel
   - Maintain awareness of team frequency while monitoring dispatch
@@ -50,9 +55,11 @@ Channel → Optional Features → Noise Cancelling TX → [On/Off]
 
 **How It Works**:
 
-1. Set primary channel as main watch channel
-2. Designate secondary channel in DW configuration
-3. Radio automatically monitors both, prioritizing incoming transmissions
+1. Radio uses dedicated second receiver to monitor secondary channel
+2. Set primary channel as main watch channel
+3. Designate secondary channel in DW configuration
+4. Radio automatically monitors both, prioritizing incoming transmissions on
+   selected channel
 
 ### Only-CH Mode (New)
 

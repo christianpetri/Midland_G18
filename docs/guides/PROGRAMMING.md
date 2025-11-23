@@ -74,12 +74,22 @@ features:
 
 The **G18-PRO NC** variant adds three advanced features:
 
-* **Noise Cancelling TX** - Adaptive noise suppression during transmission for clearer audio
-* **Dual Watch (DW)** - Simultaneously monitor two channels with automatic switching on incoming transmissions
-* **Only-CH Mode** - Restrict radio to single channel operation for tactical discipline and security
+* **Noise Cancelling TX** (hardware feature) - Adaptive noise suppression during
+  transmission for clearer audio. Requires dual receiver hardware in NC variant.
+* **Dual Watch (DW)** (hardware feature) - Simultaneously monitor two channels
+  with automatic switching on incoming transmissions. Requires dual receiver
+  hardware in NC variant.
+* **Only-CH Mode** - Restrict radio to single channel operation for tactical
+  discipline and security
 
-**Note**: These features are only available on G18-PRO NC model (requires
-PRG-G15 V1.1.25+). Standard G18-PRO does not support these features. See
+**Important Hardware Note**: Noise Cancelling TX and Dual Watch are **hardware
+features** that require the NC variant's dual receiver chipset. These cannot be
+enabled on standard G18-PRO radios even with PRG-G15 software, as the physical
+hardware is not present.
+
+**Availability**: All three features are only available on G18-PRO NC model
+(requires PRG-G15 V1.1.25+). Standard G18-PRO does not support these features.
+See
 [NC Variants Documentation](../reference/NC_VARIANTS.md) for detailed
 configuration instructions.
 

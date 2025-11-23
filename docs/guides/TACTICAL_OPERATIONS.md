@@ -128,7 +128,20 @@ changes during critical operations.
 * **Configuration**: Enable in PRG-G15 `Optional Menus` → `Only-CH Mode`
 * **Tactical Benefit**: Prevents accidental frequency changes, enforces discipline
 * **Security**: Restricts unauthorized channel access (useful for trainee teams)
+* **Hardware Requirement**: Available on all G18-PRO models (standard and NC)
 * **Recommended**: Enable during high-risk operations or team training
+
+### Advanced NC Features for Tactical Teams
+
+**⚠️ NC Variant Only** - The following features require G18-PRO NC hardware:
+
+* **Noise Cancelling TX** - Improves voice clarity in noisy environments (vehicles,
+  industrial sites)
+* **Dual Watch (DW)** - Monitor primary tactical channel + secondary command/dispatch
+  channel simultaneously
+
+Both require the NC variant's dual receiver chipset and cannot be retrofitted to
+standard G18-PRO radios.
 
 **For complete NC feature documentation**, see
 [NC Variants Guide](../reference/NC_VARIANTS.md).

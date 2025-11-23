@@ -177,11 +177,17 @@ features (requires PRG-G15 V1.1.25+ software):
 * **Dual Watch (DW)** - Monitor two channels simultaneously
   * **Benefit**: Stay aware of both primary and secondary frequencies
   * **Use Case**: Monitor team and dispatch channels at once
+  * **Hardware Requirement**: Requires G18-PRO NC (dual receiver hardware)
   * **Configuration**: Set primary and secondary channels in PRG-G15 software
 * **Only-CH Mode** - Lock radio to single channel
   * **Benefit**: Prevents accidental frequency changes
   * **Use Case**: Training, high-security operations, user discipline
+  * **Hardware Requirement**: Available on both standard and NC variants
   * **Configuration**: Enable in PRG-G15 `Optional Menus` → `Only-CH Mode`
+
+**⚠️ Hardware Limitation**: Noise Cancelling TX and Dual Watch require the
+G18-PRO NC variant's dual receiver chipset. Standard G18-PRO radios cannot use
+these features. Only-CH Mode is available on all models.
 
 **For complete NC feature documentation and detailed setup**, see
 [NC Variants Guide](../reference/NC_VARIANTS.md).
