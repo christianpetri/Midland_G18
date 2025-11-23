@@ -110,19 +110,11 @@ power immediately and take off the charger or battery from the radio.
 
 ## Main controls and parts of the radio
 
-6
-5
-14
-E
+![Radio Front View](images/radio_front_view.png)
 
 ### LCD Display
 
-```
-A B K C D
-I H J
-G
-F
-```
+![LCD Display](images/lcd_display.png)
 
 a.  Keypad lock
 b.  Selected CTCSS tone or DCS code
@@ -137,6 +129,8 @@ j.  Indicator of rx and tx signal strength
 k.  Channel temporarily not scanned
 
 ### Radio
+
+![Radio Controls](images/radio_controls.png)
 
 1. Antenna
 2. Encoder: rotate clockwise or counter-clockwise to select the different settings.
