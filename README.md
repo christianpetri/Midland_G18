@@ -576,30 +576,6 @@ Detailed checklists have been organized into separate files for easy reference:
 * [Mission Execution Checklist](checklists/Mission_Execution_Checklist.md) - Active operations protocol
 * [Post-Mission Checklist](checklists/Post_Mission_Checklist.md) - After-action review and maintenance
 
-**Quick Reference Summary:**
-
-#### Pre-Mission
-
-* [ ] Verify all communication devices are operational.
-* [ ] Conduct a team briefing to discuss objectives and roles.
-* [ ] Ensure all team members have the required equipment.
-* [ ] Perform radio checks on all assigned channels.
-* [ ] Confirm weather conditions and contingency plans.
-
-#### Mission Execution
-
-* [ ] Maintain clear communication using designated call signs and protocols.
-* [ ] Regularly update the team on progress and changes in the situation.
-* [ ] Monitor and log team member locations and status.
-* [ ] Record key events and timestamps for after-action reviews.
-
-#### Post-Mission
-
-* [ ] Debrief the team and document lessons learned.
-* [ ] Inspect and replenish all equipment.
-* [ ] Submit mission logs and reports.
-* [ ] Review and update tactical plans based on mission outcomes.
-
 ### Settings for Tactical Operations
 
 #### Radio Configuration
