@@ -1,5 +1,10 @@
 # Midland G18 PRO Bedienungsanleitung
 
+> **⚠️ INOFFIZIELLE MARKDOWN-VERSION**
+>
+> Dies ist eine **inoffizielle** Markdown-Transkription für Durchsuchbarkeit und Komfort.
+> Für die offizielle Dokumentation siehe: [MANUAL_G18_PRO_GER.pdf](MANUAL_G18_PRO_GER.pdf)
+
 **PMR446 Transceiver — Bedienungsanleitung**
 
 **Reichweite\***: Abhängig vom Gelände.

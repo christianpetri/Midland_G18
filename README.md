@@ -70,7 +70,7 @@ to create 99 selectable channel options.
   
   > 📄 **Note**: Markdown versions are professionally formatted transcripts of the official PDFs
   > with enhanced readability, embedded radio diagrams, searchable text, and clickable navigation.
-  > Content is 100% accurate to the official manuals.
+  > Transcribed with best effort for accuracy — always refer to the official PDF for authoritative information.
 * **[Operational Checklists](checklists/)** - Pre-Mission, Mission Execution,
   Post-Mission
 
