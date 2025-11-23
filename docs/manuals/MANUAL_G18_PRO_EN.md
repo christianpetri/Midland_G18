@@ -6,41 +6,44 @@
 
 \* Coverage varies with environmental conditions.
 
-## Index
+## Table of Contents
 
-| Section | Page |
-|---------|------|
-| Programming software (optional) | 2 |
-| What’s in the box | 2 |
-| Main features | 2 |
-| Coverage/Range | 3 |
-| Suggestions and warnings | 3 |
-| Main controls and parts of the radio | 4 |
-| LCD Display | 4 |
-| Radio | 5 |
-| Battery recharge | 7 |
-| Operations | 8 |
-| Power on/off and volume adjustment | 8 |
-| Transmission and reception | 8 |
-| Monitor | 8 |
-| Roger Beep (end transmission tone) | 8 |
-| Alarm function (Emergency) | 9 |
-| MENU functions | 10 |
-| Scan | 10 |
-| PRI (Priority Scan) | 10 |
-| VOX | 10 |
-| POW – Setting the transmission power | 11 |
-| Squelch | 11 |
-| Scrambler | 11 |
-| Led - Backlight | 12 |
-| Keypad Beep on/off | 12 |
-| TOT - Funzione TX timeout timer | 13 |
-| SCAN mode settings | 13 |
-| VOICE function | 14 |
-| C-CDC / R-CDC / T-CDC | 14 |
-| Name - Nome | 15 |
-| Technical specifications | 16 |
-| Troubleshooting | 17 |
+- [Programming software (optional)](#programming-software-optional)
+- [What's in the box](#whats-in-the-box)
+- [Main features](#main-features)
+- [Coverage/Range](#coveragerange)
+- [Suggestions and warnings](#suggestions-and-warnings)
+- [Main controls and parts of the radio](#main-controls-and-parts-of-the-radio)
+  - [LCD Display](#lcd-display)
+  - [Radio](#radio)
+- [Battery recharge](#battery-recharge)
+- [Operations](#operations)
+  - [Power on/off and volume adjustment](#power-onoff-and-volume-adjustment)
+  - [Transmission and reception](#transmission-and-reception)
+  - [Monitor](#monitor)
+  - [Roger Beep (end transmission tone)](#roger-beep-end-transmission-tone)
+  - [Alarm function (Emergency)](#alarm-function-emergency)
+- [MENU functions](#menu-functions)
+  - [Scan](#scan)
+  - [PRI (Priority Scan)](#pri-priority-scan)
+  - [VOX](#vox)
+  - [POW – Setting the transmission power](#pow--setting-the-transmission-power)
+  - [Squelch](#squelch)
+  - [Scrambler](#scrambler)
+  - [Led - Backlight](#led---backlight)
+  - [Keypad Beep on/off](#keypad-beep-onoff)
+  - [Keypad lock (KEYBO)](#keypad-lock-keybo)
+  - [TOT- Funzione TX timeout timer](#tot--funzione-tx-timeout-timer)
+  - [SCAN mode settings](#scan-mode-settings)
+  - [VOICE function](#voice-function)
+  - [C-CDC / R-CDC / T-CDC](#c-cdc--r-cdc--t-cdc)
+  - [Name - Nome](#name---nome)
+- [Technical specifications](#technical-specifications)
+  - [GENERAL](#general)
+  - [TRANSMITTER](#transmitter)
+  - [RECEIVER](#receiver)
+- [Troubleshooting](#troubleshooting)
+
 _Thanks for choosing Midland! G18 PRO is a portable transceiver that is free use in all_
 _European countries._
 Midland G18 PRO is the new multi-tasks PMR446 transceiver.

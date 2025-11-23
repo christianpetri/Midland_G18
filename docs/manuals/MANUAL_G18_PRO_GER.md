@@ -6,41 +6,44 @@
 
 \* Die Reichweite variiert je nach Umgebungsbedingungen.
 
-## Inhalt
+## Inhaltsverzeichnis
 
-| Abschnitt | Seite |
-|-----------|-------|
-| Einführung | 1 |
-| Inhalt | 2 |
-| Eigenschaften | 2 |
-| Abdeckung/Reichweite | 3 |
-| Sicherheits- und Warnhinweise | 3 |
-| Hauptbedienelemente und Aufbau des Funkgerätes | 4 |
-| LCD Display | 4 |
-| Hauptbedienelemente und Aufbau des Funkgerätes | 5 |
-| Akku aufladen | 7 |
-| Bedienung | 8 |
-| Ein- und Ausschalten und Lautstärkeeinstellung | 8 |
-| Senden und Empfangen | 8 |
-| Monitor | 8 |
-| Alarmfunktion (Notruf) | 9 |
-| MENÜ-Funktionen | 10 |
-| Scannen | 10 |
-| PRI (Prioritäts-Scan) | 10 |
-| VOX | 10 |
-| POW – Sendeleistung einstellen | 11 |
-| Rauschsperre | 11 |
-| Scrambler | 11 |
-| Display-Beleuchtung | 12 |
-| Tastenton ein- und ausschalten | 12 |
-| Tastensperre (KEYBO) | 13 |
-| TOT – Sendezeit-Begrenzung | 13 |
-| Suchlauf-Einstellungen | 13 |
-| Sprachführung | 14 |
-| C-CDC / R-CDC / T-CDC | 14 |
-| Name | 15 |
-| Technische Spezifikationen | 16 |
-| Fehlersuche | 17 |
+- [Einführung](#einführung)
+- [Programmiersoftware (optional)](#programmiersoftware-optional)
+- [Inhalt](#inhalt)
+- [Eigenschaften](#eigenschaften)
+- [Abdeckung/Reichweite](#abdeckungreichweite)
+- [Sicherheits- und Warnhinweise](#sicherheits--und-warnhinweise)
+- [Hauptbedienelemente und Aufbau des Funkgerätes](#hauptbedienelemente-und-aufbau-des)
+  - [LCD Display](#lcd-display)
+  - [Hauptbedienelemente und Aufbau des Funkgerätes](#hauptbedienelemente-und-aufbau-des-funkgerätes)
+- [Akku aufladen](#akku-aufladen)
+- [Bedienung](#bedienung)
+  - [Ein- und Ausschalten und Lautstärkeeinstellung](#ein--und-ausschalten-und-lautstärkeeinstellung)
+  - [Senden und Empfangen](#senden-und-empfangen)
+  - [Monitor](#monitor)
+  - [Roger Beep (Ton beim Ende der Übertragung)](#roger-beep-ton-beim-ende-der-übertragung)
+  - [Alarmfunktion (Notruf)](#alarmfunktion-notruf)
+- [MENÜ-Funktionen](#menü-funktionen)
+  - [Scannen](#scannen)
+  - [PRI (Prioritäts-Scan)](#pri-prioritäts-scan)
+  - [VOX](#vox)
+  - [POW – Sendeleistung einstellen](#pow--sendeleistung-einstellen)
+  - [Rauschsperre](#rauschsperre)
+  - [Scrambler](#scrambler)
+  - [Display-Beleuchtung](#display-beleuchtung)
+  - [Tastenton ein- und ausschalten](#tastenton-ein--und-ausschalten)
+  - [Tastensperre (KEYBO)](#tastensperre-keybo)
+  - [TOT  Sendezeit-Begrenzung](#tot--sendezeit-begrenzung)
+  - [Suchlauf-Einstellungen](#suchlauf-einstellungen)
+  - [Sprachführung](#sprachführung)
+  - [C-CDC / R-CDC / T-CDC](#c-cdc--r-cdc--t-cdc)
+  - [Name](#name)
+- [Technische Spezifikationen](#technische-spezifikationen)
+  - [ALLGEMEIN](#allgemein)
+  - [SENDER](#sender)
+  - [EMPFÄNGER](#empfänger)
+- [Fehlersuche](#fehlersuche)
 
 ## Einführung
 
