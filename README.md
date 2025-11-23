@@ -25,8 +25,8 @@ tactical and recreational use.
 
 1. **Read the basics**: [Key Specifications](#key-specifications) below
 2. **Check frequencies**: [PMR446 Frequency Table](#pmr446-frequencies)
-3. **Configure your radio**: [Hybrid Profile Guide](docs/HYBRID_PROFILE.md)
-4. **Program advanced features**: [PRG-G15 Programming Guide](docs/PROGRAMMING.md)
+3. **Configure your radio**: [Hybrid Profile Guide](docs/guides/HYBRID_PROFILE.md)
+4. **Program advanced features**: [PRG-G15 Programming Guide](docs/guides/PROGRAMMING.md)
 
 ## Key Specifications
 
@@ -50,17 +50,23 @@ to create 99 selectable channel options.
 
 ### Core Guides
 
-* **[Hybrid Profile Configuration](docs/HYBRID_PROFILE.md)** - Versatile setup
+* **[Hybrid Profile Configuration](docs/guides/HYBRID_PROFILE.md)** - Versatile setup
   balancing tactical and recreational features
-* **[Tactical Operations Guide](docs/TACTICAL_OPERATIONS.md)** - Settings,
+* **[Tactical Operations Guide](docs/guides/TACTICAL_OPERATIONS.md)** - Settings,
   protocols, and procedures for tactical team use
-* **[PRG-G15 Programming Guide](docs/PROGRAMMING.md)** - Complete programming
+* **[PRG-G15 Programming Guide](docs/guides/PROGRAMMING.md)** - Complete programming
   software reference
 
 ### Reference Materials
 
-* **[Channel List](docs/CHANNELS.md)** - Complete 99-channel configuration table
-* **[Official Manuals](docs/)** - PDF manuals in English, German, French
+* **[Channel List](docs/reference/CHANNELS.md)** - Complete 99-channel configuration table
+* **[Documentation Index](docs/README.md)** - Folder map for guides, manuals, references
+* **Official Manuals**
+  * **English (PDF, official)**: [MANUAL_G18_PRO_EN.pdf](docs/manuals/MANUAL_G18_PRO_EN.pdf)
+  * **English (Markdown transcript)**: [MANUAL_G18_PRO_EN.md](docs/manuals/MANUAL_G18_PRO_EN.md)
+  * **German (PDF)**: [MANUAL_G18_PRO_GER.pdf](docs/manuals/MANUAL_G18_PRO_GER.pdf)
+  * **German (Markdown transcript)**: [MANUAL_G18_PRO_GER.md](docs/manuals/MANUAL_G18_PRO_GER.md)
+  * **French (PDF)**: [MANUAL_G18_PRO_FRA.pdf](docs/manuals/MANUAL_G18_PRO_FRA.pdf)
 * **[Operational Checklists](checklists/)** - Pre-Mission, Mission Execution,
   Post-Mission
 
@@ -87,7 +93,7 @@ The G18 PRO operates on **16 PMR446 channels** (446.00625-446.19375 MHz).
   regulations
 * **License-free** - Legal to operate in Europe without license
 
-See [CHANNELS.md](docs/CHANNELS.md) for complete 99-channel list with CTCSS tones.
+See [CHANNELS.md](docs/reference/CHANNELS.md) for complete 99-channel list with CTCSS tones.
 
 ## Quick Reference
 
@@ -124,7 +130,7 @@ Requires **Midland PRG-G15 Programming Kit C1131** (€36):
 * Busy Channel Lockout (BCL)
 * VOX sensitivity, TOT, Squelch levels
 
-See [PROGRAMMING.md](docs/PROGRAMMING.md) for complete guide.
+See [PROGRAMMING.md](docs/guides/PROGRAMMING.md) for complete guide.
 
 ## Use Cases
 
@@ -134,7 +140,7 @@ See [PROGRAMMING.md](docs/PROGRAMMING.md) for complete guide.
 * Channel scanning for situational awareness
 * CTCSS/DCS tones for group isolation
 * BCL prevents interfering with critical communications
-* See [Tactical Operations Guide](docs/TACTICAL_OPERATIONS.md)
+* See [Tactical Operations Guide](docs/guides/TACTICAL_OPERATIONS.md)
 
 ### Hiking & Recreation
 
@@ -142,7 +148,7 @@ See [PROGRAMMING.md](docs/PROGRAMMING.md) for complete guide.
 * Scanning to find most active channel
 * Emergency features for safety backup
 * 16-20 hour battery life for extended trips
-* See [Hybrid Profile](docs/HYBRID_PROFILE.md)
+* See [Hybrid Profile](docs/guides/HYBRID_PROFILE.md)
 
 ### Emergency Preparedness
 
@@ -189,9 +195,10 @@ interference.
 
 ### This Repository
 
-* **Detailed Guides**: See [docs/](docs/) folder
+* **Detailed Guides**: See [docs/guides/](docs/guides/) folder
 * **Checklists**: See [checklists/](checklists/) folder
-* **Official Manuals**: PDFs in [docs/](docs/) folder
+* **Reference Tables**: See [docs/reference/](docs/reference/) folder
+* **Official Manuals**: PDFs and transcripts in [docs/manuals/](docs/manuals/) folder
 
 ## Contributing
 

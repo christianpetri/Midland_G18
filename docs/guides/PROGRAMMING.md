@@ -278,7 +278,7 @@ After programming, thoroughly test all configurations:
 
 ## Additional Resources
 
-* **User Manual**: See `docs/` folder for English, German, French manuals
+* **User Manual**: See `../manuals/` for English, German, and French manuals
 * **Programming Software**: [PRG-G15 Download](https://support.midlandeurope.com/en_150/products/g18-pro)
 * **Programming Cable Kit**: [Official Midland Store](https://www.midlandeurope.com/en_150/products/prg-g15)
 * **Official Support**: [G18 PRO Support Page](https://support.midlandeurope.com/en_150/products/g18-pro)

@@ -2,34 +2,17 @@
 
 ## Channel Overview
 
-### Understanding "99 Channels"
-
 The G18 PRO has **16 actual PMR446 frequencies**. The "99 channels" refers to
 99 different channel configurations using those same 16 frequencies with various
 CTCSS tone combinations.
 
 - **16 Physical Frequencies**: 446.00625 - 446.19375 MHz (12.5 kHz spacing)
 - **99 Channel Configurations**: 16 base + 83 pre-programmed with CTCSS tones
-
-**How CTCSS Works:**
-
-CTCSS (Continuous Tone-Coded Squelch System) adds an inaudible sub-audible tone
-to transmissions. Your radio only opens the speaker when it receives the matching
-tone. This creates "privacy" by filtering out other users on the same frequency.
-
-**Example:**
-
-- Channel 1 (446.00625 MHz, no CTCSS) and Channel 17 (446.00625 MHz, CTCSS
-  114.8) use the **same physical frequency**
-- A transmission on Channel 1 will be heard by Channel 1 users, but filtered out
-  by Channel 17 users (wrong tone)
-- Both are sharing the same airwave - CTCSS just filters who you hear
-
-**Channel Breakdown:**
-
 - **Channels 1-16**: Base PMR446 channels with selectable CTCSS/DCS
-- **Channels 17-99**: Same 16 frequencies with pre-programmed CTCSS tones for
-  convenience
+- **Channels 17-99**: Same 16 frequencies with pre-programmed CTCSS tones
+
+> **Note**: See "Understanding CTCSS vs Physical Channels" below for detailed
+> explanation of how CTCSS filtering works and privacy limitations.
 
 ## Base Channels (1-16) - Selectable CTCSS/DCS
 
