@@ -27,6 +27,7 @@ radio. Use the sections below to locate the document you need quickly.
 
 * `CHANNELS.md` – Complete 99-channel matrix with CTCSS groupings
 * `CHANNELS_G18_PRO.pdf` – Printable channel chart matching the markdown table
+* `NC_VARIANTS.md` – G18-PRO NC variant features (Noise Cancelling TX, Dual Watch, Only-CH Mode)
 
 ## Other Resources
 
