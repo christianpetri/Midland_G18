@@ -165,6 +165,27 @@ The following features can be configured via PRG-G15 software for enhanced custo
 CTCSS/DCS codes) for compatibility. Advanced features like ROGER BEEP,
 Compander, and Scrambler may not work across different manufacturers.
 
+### NC Variant Optional Features (G18-PRO NC Only)
+
+If your radio is the **G18-PRO NC** model, you have access to three advanced
+features (requires PRG-G15 V1.1.25+ software):
+
+* **Noise Cancelling TX** - Adaptive noise suppression during transmission
+  * **Benefit**: Clearer voice transmission in noisy environments
+  * **Use Case**: Vehicles, outdoor windy conditions, tactical operations
+  * **Configuration**: Enable per-channel in PRG-G15 software
+* **Dual Watch (DW)** - Monitor two channels simultaneously
+  * **Benefit**: Stay aware of both primary and secondary frequencies
+  * **Use Case**: Monitor team and dispatch channels at once
+  * **Configuration**: Set primary and secondary channels in PRG-G15 software
+* **Only-CH Mode** - Lock radio to single channel
+  * **Benefit**: Prevents accidental frequency changes
+  * **Use Case**: Training, high-security operations, user discipline
+  * **Configuration**: Enable in PRG-G15 `Optional Menus` → `Only-CH Mode`
+
+**For complete NC feature documentation and detailed setup**, see
+[NC Variants Guide](../reference/NC_VARIANTS.md).
+
 ## Use Case Optimization
 
 ### For Tactical Operations

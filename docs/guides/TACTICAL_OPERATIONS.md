@@ -91,6 +91,48 @@ easy reference during mission phases:
 * **Time Limits**: Keep transmissions short to minimize detection
 * **Frequency Rotation**: Consider rotating channels during long operations
 
+### NC Variant Features (G18-PRO NC)
+
+If your radio is the **G18-PRO NC** model, three advanced features enhance
+tactical operations (requires PRG-G15 V1.1.25+):
+
+#### Noise Cancelling TX
+
+**Purpose**: Reduce background noise during transmission for clearer tactical
+communications.
+
+* **Configuration**: Enable per-channel in PRG-G15 software
+* **Tactical Benefit**: Improves voice clarity in high-noise environments
+  (vehicles, helicopters, tactical situations)
+* **Use Case**: Ideal when communicating in noisy deployment areas
+* **Recommended**: Enable on primary tactical channels
+
+#### Dual Watch (DW)
+
+**Purpose**: Simultaneously monitor primary team channel and secondary command
+channel without manual switching.
+
+* **Configuration**: Requires PRG-G15 software (set `D.W.main CH` to primary channel)
+* **Tactical Benefit**: Maintain awareness of both team and command frequencies
+* **Example Setup**:
+  * Primary: Team tactical frequency (446.0625 MHz)
+  * Secondary: Command/dispatch frequency (446.1875 MHz)
+* **Operation**: Radio automatically alerts on incoming traffic from either channel
+* **Recommended**: Enable for team leaders coordinating with command
+
+#### Only-CH Mode
+
+**Purpose**: Lock radio to single channel operation, preventing frequency
+changes during critical operations.
+
+* **Configuration**: Enable in PRG-G15 `Optional Menus` → `Only-CH Mode`
+* **Tactical Benefit**: Prevents accidental frequency changes, enforces discipline
+* **Security**: Restricts unauthorized channel access (useful for trainee teams)
+* **Recommended**: Enable during high-risk operations or team training
+
+**For complete NC feature documentation**, see
+[NC Variants Guide](../reference/NC_VARIANTS.md).
+
 ## Programmable Function (PF) Button Configuration
 
 **Hardware Note**: The G18 PRO has **Function key 1 (PF3)** and **Function key 2
