@@ -1,48 +1,52 @@
 # Midland G18 PRO Instruction Guide
 
-**PMR446 Transceiver — Instruction Guide**
+![PMR446](https://img.shields.io/badge/PMR446-Official%20Manual-blue?style=flat-square) ![IP67](https://img.shields.io/badge/IP67-Certified-green?style=flat-square)
 
-**Coverage\***: Depending on terrain.
+**PMR446 Transceiver — Official Instruction Guide**
 
-\* Coverage varies with environmental conditions.
+**Coverage**: Depending on terrain (up to 12+ km in open space)
+
+*Coverage varies with environmental conditions.*
 
 ## Table of Contents
 
-- [Programming software (optional)](#programming-software-optional)
-- [What's in the box](#whats-in-the-box)
-- [Main features](#main-features)
-- [Coverage/Range](#coveragerange)
-- [Suggestions and warnings](#suggestions-and-warnings)
-- [Main controls and parts of the radio](#main-controls-and-parts-of-the-radio)
-  - [LCD Display](#lcd-display)
-  - [Radio](#radio)
-- [Battery recharge](#battery-recharge)
-- [Operations](#operations)
-  - [Power on/off and volume adjustment](#power-onoff-and-volume-adjustment)
-  - [Transmission and reception](#transmission-and-reception)
-  - [Monitor](#monitor)
-  - [Roger Beep (end transmission tone)](#roger-beep-end-transmission-tone)
-  - [Alarm function (Emergency)](#alarm-function-emergency)
-- [MENU functions](#menu-functions)
-  - [Scan](#scan)
-  - [PRI (Priority Scan)](#pri-priority-scan)
-  - [VOX](#vox)
-  - [POW – Setting the transmission power](#pow--setting-the-transmission-power)
-  - [Squelch](#squelch)
-  - [Scrambler](#scrambler)
-  - [Led - Backlight](#led---backlight)
-  - [Keypad Beep on/off](#keypad-beep-onoff)
-  - [Keypad lock (KEYBO)](#keypad-lock-keybo)
-  - [TOT- Funzione TX timeout timer](#tot--funzione-tx-timeout-timer)
-  - [SCAN mode settings](#scan-mode-settings)
-  - [VOICE function](#voice-function)
-  - [C-CDC / R-CDC / T-CDC](#c-cdc--r-cdc--t-cdc)
-  - [Name - Nome](#name---nome)
-- [Technical specifications](#technical-specifications)
-  - [GENERAL](#general)
-  - [TRANSMITTER](#transmitter)
-  - [RECEIVER](#receiver)
-- [Troubleshooting](#troubleshooting)
+- [Midland G18 PRO Instruction Guide](#midland-g18-pro-instruction-guide)
+  - [Table of Contents](#table-of-contents)
+    - [Programming software (optional)](#programming-software-optional)
+    - [What’s in the box](#whats-in-the-box)
+    - [Main features](#main-features)
+    - [Coverage/Range](#coveragerange)
+    - [Suggestions and warnings](#suggestions-and-warnings)
+  - [Main controls and parts of the radio](#main-controls-and-parts-of-the-radio)
+    - [LCD Display](#lcd-display)
+    - [Radio](#radio)
+  - [Battery recharge](#battery-recharge)
+  - [Operations](#operations)
+    - [Power on/off and volume adjustment](#power-onoff-and-volume-adjustment)
+    - [Transmission and reception](#transmission-and-reception)
+    - [Monitor](#monitor)
+    - [Roger Beep (end transmission tone)](#roger-beep-end-transmission-tone)
+    - [Alarm function (Emergency)](#alarm-function-emergency)
+  - [MENU functions](#menu-functions)
+    - [Scan](#scan)
+    - [PRI (Priority Scan)](#pri-priority-scan)
+    - [VOX](#vox)
+    - [POW – Setting the transmission power](#pow--setting-the-transmission-power)
+    - [Squelch](#squelch)
+    - [Scrambler](#scrambler)
+    - [Led - Backlight](#led---backlight)
+    - [Keypad Beep on/off](#keypad-beep-onoff)
+    - [Keypad lock (KEYBO)](#keypad-lock-keybo)
+    - [TOT- Funzione TX timeout timer](#tot--funzione-tx-timeout-timer)
+    - [SCAN mode settings](#scan-mode-settings)
+    - [VOICE function](#voice-function)
+    - [C-CDC / R-CDC / T-CDC](#c-cdc--r-cdc--t-cdc)
+    - [Name - Nome](#name---nome)
+  - [Technical specifications](#technical-specifications)
+    - [GENERAL](#general)
+    - [TRANSMITTER](#transmitter)
+    - [RECEIVER](#receiver)
+  - [Troubleshooting](#troubleshooting)
 
 _Thanks for choosing Midland! G18 PRO is a portable transceiver that is free use in all_
 _European countries._
@@ -53,13 +57,21 @@ G18 PRO is the ideal solution for your free time but especially in extreme condi
 
 ### Programming software (optional)
 
-Thanks to Midland Programming software PRG-G15, it is possible to increase the
+Thanks to Midland Programming software **PRG-G15**, it is possible to increase the
 performance of your radio or to reduce its functionality by enabling or disabling
-some features (CTCSS, TOT, VOX, ROGER BEEP, SQUELCH, VOICE, RRM
-channel...)
+some features:
+
+- CTCSS/DCS codes
+- TOT (Timeout Timer)
+- VOX sensitivity
+- ROGER BEEP
+- SQUELCH levels
+- VOICE announcements
+- RRM channel (Italy only)
+
 For further information, please consult the Programming software manual.
-Any attempt to change frequencies or output power of the radio invalidates the
-approval.
+
+> **⚠️ WARNING**: Any attempt to change frequencies or output power of the radio invalidates the approval.
 
 ### What’s in the box
 
@@ -74,39 +86,42 @@ approval.
 - Extended frequency band: 446.00625 - 446.19375MHz
 - 16 New PMR446 channels
 - 99 PMR446 channels: 16 + 83 pre-programmed
-- IP 67 Certified
-- 50 CTCSS tones+105 DCS Codes
+- **IP 67 Certified** (Waterproof & Dustproof)
+- 50 CTCSS tones + 105 DCS Codes
 - RRM channel (only for Italy)
-- Scrambler
-- FM Radio and Compander (programmables with PRG-G15)
-- Scan, Monitor and Vox functions
+- Scrambler (voice encryption)
+- FM Radio and Compander (programmable with PRG-G15)
+- Scan, Monitor and VOX functions
 - Vocal announcement
 
 ### Coverage/Range
 
-The maximum range depends on terrain condition and is obtained during use in an
-open space.
-The only limitation to maximum possible range are environmental factors such as
-blockage caused by trees, buildings or other obstructions. Inside a car or a metallic
-construction, the range can be reduced. Normally the coverage in the city, with buildings or other obstructions is about 1 or 2 Km. In open space but with obstructions
-like trees, leaves or houses the maximum possible range is about 4-6 Km. In open
-space, without obstructions and in sight, like for example in mountain, the coverage
-can be more than 12 Km.
+The maximum range depends on terrain conditions and is obtained during use in an open space.
+
+**Typical Range Performance:**
+
+| Environment | Obstructions | Range |
+|-------------|--------------|-------|
+| 🏙️ **Urban/City** | Buildings, structures | **1-2 km** |
+| 🌳 **Semi-Open** | Trees, houses | **4-6 km** |
+| ⛰️ **Open Space** | Line of sight, mountains | **12+ km** |
+| 🚗 **Inside Vehicle** | Metal enclosure | **Reduced** |
+
+> 📡 **Range Factors**: Environmental obstacles (trees, buildings, metal structures) significantly affect transmission range.
 
 ### Suggestions and warnings
 
 Your G18 PRO was designed to fulfill any warranty obligations and to enjoy this
 product for many years.
-As for all the electronic devices, we recommend you to follow these suggestions:
 
-- Do not attempt to open the unit. Non-expert handling of the unit may damage
-it and annul the warranty.
-- When using regulated power supply, take note of the power voltage, that must
-be between 6V and 8V to avoid damages.
-- High temperatures can shorten the life of electronic devices, and warp or melt
-certain plastics. Do not store the radio in dirty areas.
-- If it appears that the Radio diffuses peculiar smell or smoke, please shut off its
-power immediately and take off the charger or battery from the radio.
+As for all electronic devices, we recommend you to follow these suggestions:
+
+**Important Safety Guidelines:**
+
+- Do not attempt to open the unit. Non-expert handling may damage it and void the warranty.
+- When using regulated power supply, use only 6V-8V DC to avoid damages.
+- High temperatures can shorten the life of electronic devices. Do not store the radio in hot or dirty areas.
+- If the radio diffuses peculiar smell or smoke, immediately shut off power and remove the charger or battery.
 
 ## Main controls and parts of the radio
 
@@ -116,54 +131,67 @@ power immediately and take off the charger or battery from the radio.
 
 ![LCD Display](images/lcd_display.png)
 
-- **a.** Keypad lock
-- **b.** Selected CTCSS tone or DCS code
-- **c.** Number of the menu/channel indicator
-- **d.** Battery status indicator
-- **e.** Channel in use
-- **f.** Priority scan mode
-- **g.** VOX function activated
-- **h.** Low power indicator
-- **i.** Function key activated
-- **j.** Indicator of rx and tx signal strength
-- **k.** Channel temporarily not scanned
+**Display Indicators:**
+
+| Label | Function |
+|-------|----------|
+| a | Keypad lock |
+| b | Selected CTCSS tone or DCS code |
+| c | Number of the menu/channel indicator |
+| d | Battery status indicator |
+| e | Channel in use |
+| f | Priority scan mode |
+| g | VOX function activated |
+| h | Low power indicator |
+| i | Function key activated |
+| j | Indicator of rx and tx signal strength |
+| k | Channel temporarily not scanned |
 
 ### Radio
 
 ![Radio Controls](images/radio_controls.png)
 
-1. Antenna
-2. Encoder: rotate clockwise or counter-clockwise to select the different settings.
-3. Power/volume knob: turn clockwise to power on and increase the volume level.
-   Turn counter-clockwise to decrease the volume level and power off.
-4. Speaker
-5. Built-in microphone
-6. Led indicator: RED: TX; GREEN: RX.
-7. Emergency button (it can be activated through the programming software)
-8. PTT: push this button to transmit, release it to receive.
-9. Function key 1: Short pressure: Monitor function activation (PF3).
-10. Function key 2: Long pressure: SCAN function activation (PF4).
-11. External Speaker/Mic Jack (Motorola type): allows the connection with external devices such as headsets, microphones.
-12. Multi-function key 'FUN': it allows to activate secondary functions.
-13. LCD Display
-14. Multi-function keys MENU - ENT - VFO/MR
+**Physical Controls:**
+
+| # | Component | Description |
+|---|-----------|-------------|
+| 1 | Antenna | External antenna |
+| 2 | Encoder | Rotate clockwise or counter-clockwise to select the different settings |
+| 3 | Power/volume knob | Turn clockwise to power on and increase the volume level<br>Turn counter-clockwise to decrease the volume level and power off |
+| 4 | Speaker | Audio output |
+| 5 | Built-in microphone | Microphone for transmitting |
+| 6 | Led indicator | RED: TX / GREEN: RX |
+| 7 | Emergency button | Can be activated through the programming software |
+| 8 | PTT | Push this button to transmit, release it to receive |
+| 9 | Function key 1 (PF3) | Short pressure: Monitor function activation |
+| 10 | Function key 2 (PF4) | Long pressure: SCAN function activation |
+| 11 | External Speaker/Mic Jack | Motorola type: allows the connection with external devices such as headsets, microphones |
+| 12 | Multi-function key 'FUN' | Allows to activate secondary functions |
+| 13 | LCD Display | Information display |
+| 14 | Multi-function keys | MENU - ENT - VFO/MR |
 
 ## Battery recharge
 
-G18 PRO is equipped for using a 7,4V Li-ion rechargeable battery pack, which can
-be recharged by connecting the socket of the AC/DC wall adaptor to a mains power socket and inserting the jack of the wall adaptor into the desktop charger plug.
-It takes 4 hours to fully recharge the radio.
-The led of the desktop charger indicates the status of the recharge:
-Red = charging,
-Green = full charge
-For maximum battery life, we recommend you to charge the battery pack when the
-G18 PRO is off and the battery pack is fully discharged.
-! Using a different battery charger other than the one specified can cause damage
-to your device or may even cause explosions and personal injuries.
-_The Battery power saving feature enables a reduction in consumption of up to 50% and_
-_saves the battery life. If it has been set, it automatically activates when the transceiver_
-_does not receive any signal for more than 5 seconds. Power saving can be disabled only_
-_through the Programming software._
+G18 PRO is equipped for using a 7.4V Li-ion rechargeable battery pack (1600mAh), which can
+be recharged by connecting the socket of the AC/DC wall adapter to a mains power socket and inserting the jack of the wall adapter into the desktop charger plug.
+
+**Charging time**: 4 hours to fully recharge the radio.
+
+**Desktop Charger LED Indicators:**
+
+| LED Color | Status |
+|-----------|--------|
+| Red | Charging in progress |
+| Green | Fully charged |
+
+**Recommendations:**
+
+- For maximum battery life, charge the battery pack when the G18 PRO is powered off and the battery is fully discharged.
+- **WARNING**: Using a different battery charger than specified can cause device damage, explosions, or personal injuries.
+
+**Battery Power Saving Feature:**
+
+The battery power saving feature enables a reduction in consumption of up to 50% and saves the battery life. If it has been set, it automatically activates when the transceiver does not receive any signal for more than 5 seconds. Power saving can be disabled only through the Programming software.
 
 ## Operations
 
