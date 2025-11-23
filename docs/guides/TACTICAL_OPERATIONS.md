@@ -3,18 +3,6 @@
 This guide provides comprehensive settings, protocols, and procedures for
 tactical team operations using the Midland G18 PRO PMR446 radio.
 
-## Tactical Team Checklists
-
-Detailed operational checklists have been organized into separate files for
-easy reference during mission phases:
-
-* [Pre-Mission Checklist](../checklists/Pre_Mission_Checklist.md) - Complete
-  preparation verification
-* [Mission Execution Checklist](../checklists/Mission_Execution_Checklist.md) -
-  Active operations protocol
-* [Post-Mission Checklist](../checklists/Post_Mission_Checklist.md) -
-  After-action review and maintenance
-
 ## Radio Configuration for Tactical Operations
 
 ### Basic Settings
@@ -271,14 +259,14 @@ scan list.
 * **Mission Duration**: Calculate expected battery life
 * **Spare Battery Allocation**: Distribute spares across team
 * **Charging Opportunities**: Identify recharge points during mission
-* **Power Conservation**: Plan Low Power usage where appropriate
+* **Power Conservation**: Minimize transmit time and disable unused features
 
 ## Troubleshooting Common Issues
 
 ### Poor Range
 
 * **Check antenna**: Ensure proper connection and orientation
-* **Try High Power mode**: Switch via Menu > POW (both = 500mW ERP)
+* **Verify power setting**: Confirm Menu > POW shows expected mode (both = 500mW ERP)
 * **Find elevated position**: Improve line-of-sight propagation
 * **Verify CTCSS/DCS**: Ensure matching codes across team radios
 
@@ -291,7 +279,7 @@ scan list.
 ### Battery Drain
 
 * **Reduce backlight**: Shorten timeout or disable
-* **Use Low Power mode**: Minor battery savings possible
+* **Minimize transmit time**: Primary power conservation method
 * **Disable unused features**: Turn off FM radio, scan, etc.
 * **Check battery health**: Replace aging batteries
 

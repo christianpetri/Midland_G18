@@ -22,20 +22,15 @@ optimal performance and battery efficiency. It provides:
 
 #### TX Power Management
 
-**Important**: Both "Low" and "High" power modes output **≤500mW ERP** per PMR446
-regulations. The power output is identical; the mode selection exists for
-user preference and potential battery optimization.
+**Important**: Per PMR446 regulations, the G18-PRO outputs **≤500mW ERP** in both
+"Low" and "High" power modes. The official manual confirms: "By default, both low
+and high power are set at 500mW."
 
-* **Default Setting**: Low Power Mode
-  * **Output**: 500mW ERP (same as High)
-  * **Benefit**: May conserve battery in some conditions
-  * **Range**: Same as High Power (up to 12+ km in optimal conditions)
-  * **Best For**: General use, battery consciousness
-* **High Power Mode**: Available via menu (POW setting)
-  * **Output**: 500mW ERP (same as Low)
-  * **Range**: Same as Low Power (up to 12+ km in optimal conditions)
-  * **Note**: Display shows "LOW" when Low Power is selected
-  * **Reality**: Both modes comply with PMR446 ≤500mW limit
+* **Power Setting**: Menu > POW
+  * **Low Mode**: 500mW output (displays "LOW" indicator)
+  * **High Mode**: 500mW output (no indicator)
+  * **Range**: Identical in both modes (~12+ km optimal conditions)
+  * **Recommendation**: Keep on Low mode; toggling serves no practical purpose
 
 #### Time-Out Timer (TOT)
 
@@ -85,9 +80,7 @@ the optional PRG-G15 software. These are **not** factory defaults.
 #### PF4 Short Press: (Available for custom programming)
 
 * **Suggestion**: Leave unassigned or assign to frequently-used function
-  * **Note**: Power toggle is not recommended since both Low and High modes
-        output identical 500mW ERP - the toggle only changes the display
-        indicator, not actual performance
+  * **Note**: Power toggle not recommended (see TX Power Management section)
 
 ### Emergency and Safety Features
 
@@ -212,13 +205,12 @@ these features. Only-CH Mode is available on all models.
 * CTCSS tones reduce interference from other hikers/groups
 * Narrow bandwidth provides clearer audio quality
 * 16-20 hour battery life with typical use (90% RX, 10% TX)
-* All modes output 500mW ERP for consistent range performance
-* Power toggle adapts to changing terrain/distance needs
+* Consistent 500mW ERP output ensures reliable range
 
 ### For Emergency Preparedness
 
 * Emergency alarm provides distress signaling
-* High power access ensures maximum range when needed
+* 500mW ERP output ensures maximum legal range
 * Monitor capability allows listening for emergency traffic
 * Channel scanning helps locate active emergency communications
 * Battery optimization extends operational time
@@ -237,15 +229,9 @@ these features. Only-CH Mode is available on all models.
 | 50% receive, 50% transmit | 8-12 hours |
 | Continuous transmit       | 4-6 hours |
 
-**Power Mode Note**: The "Low" and "High" power menu settings both output
-≤500mW ERP per PMR446 regulations. Battery life is nearly identical between
-modes since the RF output power is the same. Any minor difference is due to
-internal circuitry efficiency, not transmission power.
+**Note**: Battery life independent of Low/High power setting (both output 500mW).
 
 ### Range Performance
-
-**Note**: Range is identical for both power modes (≤500mW ERP per PMR446
-regulations)
 
 | Environment | Typical Range | Notes |
 |-------------|---------------|-------|
@@ -284,7 +270,7 @@ Scan) are already optimized for most use cases.
 
 ### Maximizing Battery Life
 
-* Use Low Power mode for nearby communication
+* Minimize transmit time (primary power savings)
 * Disable FM radio when not needed
 * Reduce backlight timeout
 * Use scan sparingly
@@ -292,7 +278,7 @@ Scan) are already optimized for most use cases.
 
 ### Optimizing Range
 
-* Use High Power mode for long-range communication
+* Ensure antenna connection secure (both modes = 500mW)
 * Position antenna vertically when possible
 * Find elevated positions for better propagation
 * Avoid obstacles and interference sources

@@ -151,8 +151,9 @@ These features require PRG-G15 programming software:
   * Options: Power toggle (not recommended), Channel switch, or leave unassigned
 * [ ] **Emergency Button**: Enable via PRG-G15 (3-second hold activation)
 
-**Note**: Power toggle is not recommended since both Low and High modes output
-identical 500mW ERP - the toggle only changes the display indicator.
+**Note**: Power toggle is not recommended since the G18-PRO defaults both Low and
+High modes to 500mW ERP output (see manual: POW section). The toggle only changes
+the display indicator without affecting actual transmission power.
 
 ### Testing and Validation
 
