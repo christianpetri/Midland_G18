@@ -70,6 +70,19 @@ features:
 * **Regulatory Compliance** - Modifying these would invalidate PMR446
   approval
 
+### NC Variant Features (G18-PRO NC Only)
+
+The **G18-PRO NC** variant adds three advanced features:
+
+* **Noise Cancelling TX** - Adaptive noise suppression during transmission for clearer audio
+* **Dual Watch (DW)** - Simultaneously monitor two channels with automatic switching on incoming transmissions
+* **Only-CH Mode** - Restrict radio to single channel operation for tactical discipline and security
+
+**Note**: These features are only available on G18-PRO NC model (requires
+PRG-G15 V1.1.25+). Standard G18-PRO does not support these features. See
+[NC Variants Documentation](../reference/NC_VARIANTS.md) for detailed
+configuration instructions.
+
 ## Step-by-Step Programming Guide
 
 ### Preparation
