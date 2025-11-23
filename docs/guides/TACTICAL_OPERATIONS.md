@@ -63,8 +63,10 @@ tactical team operations using the Midland G18 PRO PMR446 radio.
 
 ### Privacy Features
 
-* **Scrambler**: Enable for basic voice privacy (not encryption-grade) - see [PROGRAMMING.md](PROGRAMMING.md#scrambler-voice-privacy) for details
-* **CTCSS/DCS Codes**: Coordinate team-specific privacy codes - see [PROGRAMMING.md](PROGRAMMING.md#ctcssdcs-tones-selective-calling)
+* **Scrambler**: Enable for basic voice privacy (not encryption-grade) - see
+  [PROGRAMMING.md](PROGRAMMING.md#scrambler-voice-privacy) for details
+* **CTCSS/DCS Codes**: Coordinate team-specific privacy codes - see
+  [PROGRAMMING.md](PROGRAMMING.md#ctcssdcs-tones-selective-calling)
 * **Channel Discipline**: Monitor before transmitting (use BCL if programmed)
 
 ### Operational Security
