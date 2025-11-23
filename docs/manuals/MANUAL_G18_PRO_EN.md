@@ -1,43 +1,46 @@
-# G18 PRO
+# Midland G18 PRO Instruction Guide
 
-PMR446 TRANSCEIVER
-› INSTRUCTION GUIDE
-**Coverage***
+**PMR446 Transceiver — Instruction Guide**
 
-- Depending on terrain
+**Coverage\***: Depending on terrain.
+
+\* Coverage varies with environmental conditions.
 
 ## Index
 
-Programming software (optional) 2
-What’s in the box 2
-Main features 2
-Coverage/Range 3
-Suggestions and warnings 3
-Main controls and parts of the radio 4
-LCD Display 4
-Radio 5
-Battery recharge 7
-Operations 8
-Power on/of and volume adjustment f 8
-Transmission and reception 8
-Monitor 8
-Roger Beep (end transmission tone) 8
-Alarm function (Emergency) 9
-MENU functions 10
-Scan 10
-PRI (Priority Scan) 10
-VOX 10
-POW – Setting the transmission power 11
-Squelch 11
-Scrambler 11
-Led - Backlight 12
-Keypad Beep on/off 12
-TOT- Funzione TX timeout timer 13
-SCAN mode settings 13
-VOICE function 14
-C-CDC / R-CDC / T-CDC 14
-Name - Nome 15
-Troubleshooting 17
+| Section | Page |
+|---------|------|
+| Programming software (optional) | 2 |
+| What’s in the box | 2 |
+| Main features | 2 |
+| Coverage/Range | 3 |
+| Suggestions and warnings | 3 |
+| Main controls and parts of the radio | 4 |
+| LCD Display | 4 |
+| Radio | 5 |
+| Battery recharge | 7 |
+| Operations | 8 |
+| Power on/off and volume adjustment | 8 |
+| Transmission and reception | 8 |
+| Monitor | 8 |
+| Roger Beep (end transmission tone) | 8 |
+| Alarm function (Emergency) | 9 |
+| MENU functions | 10 |
+| Scan | 10 |
+| PRI (Priority Scan) | 10 |
+| VOX | 10 |
+| POW – Setting the transmission power | 11 |
+| Squelch | 11 |
+| Scrambler | 11 |
+| Led - Backlight | 12 |
+| Keypad Beep on/off | 12 |
+| TOT - Funzione TX timeout timer | 13 |
+| SCAN mode settings | 13 |
+| VOICE function | 14 |
+| C-CDC / R-CDC / T-CDC | 14 |
+| Name - Nome | 15 |
+| Technical specifications | 16 |
+| Troubleshooting | 17 |
 _Thanks for choosing Midland! G18 PRO is a portable transceiver that is free use in all_
 _European countries._
 Midland G18 PRO is the new multi-tasks PMR446 transceiver.
@@ -427,40 +430,68 @@ channel number.
 
 ## Technical specifications
 
-GENERAL
-Frequency range 446.00625- 446.19375 MHz (PMR446)
-Channels 16+83 pre-set
-Working temperature -20°+55°
-Operating voltage 7.4V
-Operative Mode Simplex
-Dimensions 113mm×56mm×38mm (Antenna excluded)
-Weight 240g (Battery included)
-Impedance Antenna 50Ω
-Duty cycle 5/5/90%
-TRANSMITTER
-Frequency stability ±2.5PPM
-Output power ≤500mW ERP
-Max frequency deviation ≤2,5KHz
-Audio distortion ≤3%
-Adjacent channel power < 60 dB
-Spurious radiation Within European legal terms
-Occupied bandwidth Within European legal terms
-RECEIVER
-RF sensitivity <0.2UV@20 dB SINAD
-Audio distortion ≤3%
-Audio response 300Hz ÷ 3KHz
-Adjacent channel selectivity Within European legal terms
-Intermodulation rejection Within European legal terms
-Spurious emissions Within European legal terms
-Blocking Within European legal terms
-SAR 0,982W/Kg
+### GENERAL
+
+| Parameter | Specification |
+|-----------|---------------|
+| Frequency range | 446.00625- 446.19375 MHz (PMR446) |
+| Channels | 16+83 pre-set |
+| Working temperature | -20°+55° |
+| Operating voltage | 7.4V |
+| Operative Mode | Simplex |
+| Dimensions | 113mm×56mm×38mm (Antenna excluded) |
+| Weight | 240g (Battery included) |
+| Impedance | Antenna 50Ω |
+| Duty cycle | 5/5/90% |
+
+### TRANSMITTER
+
+| Parameter | Specification |
+|-----------|---------------|
+| Frequency stability | ±2.5PPM |
+| Output power | ≤500mW ERP |
+| Max frequency deviation | ≤2,5KHz |
+| Audio distortion | ≤3% |
+| Adjacent channel power | < 60 dB |
+| Spurious radiation | Within European legal terms |
+| Occupied bandwidth | Within European legal terms |
+
+### RECEIVER
+
+| Parameter | Specification |
+|-----------|---------------|
+| RF sensitivity | <0.2UV@20 dB SINAD |
+| Audio distortion | ≤3% |
+| Audio response | 300Hz ÷ 3KHz |
+| Adjacent channel selectivity | Within European legal terms |
+| Intermodulation rejection | Within European legal terms |
+| Spurious emissions | Within European legal terms |
+| Blocking | Within European legal terms |
+| SAR | 0,982W/Kg |
 _WARNING: Direct plug-in ac/dc power supply must be used for disconnecting the tran-_
 _sceiver from the mains; the desktop charger must be positioned close to the unit and_
 _easily accessible._
 
 ## Troubleshooting
 
-Problem Possible Cause Solution
+| Problem | Possible Cause | Solution |
+|---------|----------------|----------|
+| The radio doesn't switch on | The battery pack is discharged and/or has not been installed correctly. | Verify that the battery pack is charged and that it has been correctly installed. |
+| The radio switches off shortly after it has been switched on | Discharged battery pack. | Recharge the battery pack. |
+| The battery pack does not recharge | The battery-charger has not been connected or installed correctly. | Inspect the connections of the battery-charger and the installation of the batteries. |
+| The radio switches on but is unable to receive signals | The site of installation is too shielded. | Move to an another area. |
+| The radio switches on but is unable to receive signals | The volume is too low | Adjust the volume level. |
+| The radio switches on but is unable to receive signals | Incorrect CTCSS or DCS | Check that the CTCSS tone or DCS code corresponds to the one set by the parties you are communicating with. |
+| It is not possible to communicate with other parties | An incorrect radio channel has been selected. | Select the same radio channel used by the parties you are communicating with. |
+| It is not possible to communicate with other parties | The radio is installed in a shielded area or is too far from the party you are communicating with | Move to another area. |
+| It is not possible to communicate with other parties | Incorrect CTCSS or DCS | Check that the CTCSS tone or DCS code corresponds to the one set by the parties you are communicating with. |
+| Reception is fragmented and/or disturbed | The signal is very weak. | Try temporarily to disable the Squelch by means of the Monitor feature. |
+| Reception is fragmented and/or disturbed | The transmission distance is excessive and/or there are obstacles in the transmission path | Move closer to the party you are communicating with or to another area. |
+| Reception is fragmented and/or disturbed | Other parties are using the same channel | Check the traffic on the radio channel by means of the Monitor feature and select another channel if required. |
+| Reception is fragmented and/or disturbed | The radio has been installed too close to equipment that causes interference (televisions, computers, etc.) | Increase the distance between the radio and this equipment. |
+| The autonomy of the battery pack is limited | Transmission time is too long. | Try to reduce the transmission time and/or use a low power. |
+
+Prodotto o importato da
 Verify that the battery
 The radio doesn’t switch The battery pack is di- pack is charged and that
 on scharged and/or has not it has been correctly

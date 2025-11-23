@@ -43,6 +43,9 @@ user_profiles/
 *.log
 logs/
 
+# Scratch Workspace
+temp/
+
 # Archives
 *.zip
 *.rar
