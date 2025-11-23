@@ -60,6 +60,8 @@ to create 99 selectable channel options.
 ### Reference Materials
 
 * **[Channel List](docs/reference/CHANNELS.md)** - Complete 99-channel configuration table
+* **[NC Variants Documentation](docs/reference/NC_VARIANTS.md)** - G18-PRO NC features
+  (Noise Cancelling TX, Dual Watch) and programming guide
 * **[Documentation Index](docs/README.md)** - Folder map for guides, manuals, references
 * **Official Manuals**
   * **English**: [PDF (official)](docs/manuals/MANUAL_G18_PRO_EN.pdf) |
