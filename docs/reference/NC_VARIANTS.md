@@ -15,7 +15,7 @@ communications.
 |--------|------------------|-----------|
 | **Model Code** | 3 | 4 |
 | **Software** | G18-PRO Programming Software | G18-PRO NC Programming Software |
-| **Key Features** | Standard PMR446 | + Noise Cancelling TX + Dual Watch |
+| **Key Features** | Standard PMR446 | + Noise Cancelling TX + Dual Watch + Only-CH Mode |
 | **Test Mode Columns** | 10 | 14 |
 | **Configuration Profiles** | Standard | Enhanced with NC profiles |
 
@@ -53,6 +53,27 @@ Channel → Optional Features → Noise Cancelling TX → [On/Off]
 1. Set primary channel as main watch channel
 2. Designate secondary channel in DW configuration
 3. Radio automatically monitors both, prioritizing incoming transmissions
+
+### Only-CH Mode (New)
+
+**Purpose**: Restrict radio to operate on a single selected channel only,
+preventing accidental frequency changes during tactical operations.
+
+- **Feature ID**: `id_1135` (Only-CH Mode)
+- **Status**: Programmable via PRG-G15 software
+- **Benefit**: Security and focus — prevents unauthorized channel switching
+
+**Configuration**: Enable in PRG-G15 Optional Menus
+
+```
+Radio → Optional Menus → Only-CH Mode → [On/Off]
+```
+
+**Use Cases**:
+
+- Tactical operations requiring strict frequency discipline
+- Training scenarios where trainees should not change frequencies
+- High-security communications requiring locked channels
 
 ## Programming Software Changes
 
@@ -166,6 +187,21 @@ New test items specifically for NC:
 4. **Configure**: `Dual Watch` → On
 5. **Secondary Channel**: Assign in channel list
 6. **Save & Write** to radio
+
+### Enable Only-CH Mode
+
+1. **Open PRG-G15 Software** (V1.1.25+)
+2. **Load Radio Codeplug** (Read from radio)
+3. **Navigate**: `Radio` → `Optional Menus`
+4. **Find**: `Only-CH Mode` → Set to `On`
+5. **Select**: Single channel to lock radio to
+6. **Save & Write** to radio
+
+**After enabling**:
+
+- Radio will only transmit/receive on selected channel
+- All other channels become unavailable until mode is disabled
+- Useful for training or secure operations
 
 ## Troubleshooting
 
