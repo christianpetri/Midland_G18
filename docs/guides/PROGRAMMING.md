@@ -310,6 +310,113 @@ status.
 * **Avoid proprietary features** for cross-brand compatibility
 * **Test thoroughly** before deploying in critical situations
 
+## PRG-G15 V1.1.25 Software Deep Dive
+
+### Supported Radio Models
+
+**Standard Models (Model Code 3)**:
+* G18-PRO
+* G15-PRO
+* G18
+* G15
+* Arctic
+
+**NC Variants (Model Code 4)**:
+* G18-PRO NC
+* G15-PRO NC
+
+### Model Codes Explained
+
+| Code | Model | Features | NC Support |
+|------|-------|----------|------------|
+| m3 | G18/G15/Arctic | Standard PMR446 | No |
+| m4 | G18-PRO NC | Dual receiver, enhanced | Yes |
+
+**Note**: Older model codes (m0-m2) were used in earlier G18/G15 variants but are
+not supported by current PRG-G15 software.
+
+### Software Configuration Files (.dat)
+
+The software uses `.dat` files to store frequency and feature configurations:
+
+**Standard Configuration Profiles**:
+* `default.dat` - Factory defaults
+* `PRO.dat` - Full 400-520 MHz band
+* `PRO PMR.dat` - PMR446 only (446.00625-446.19375 MHz)
+* `PRO PMR LPD.dat` - PMR446 + LPD band (69.0-87.0 MHz)
+* `PRO PMR NEW.dat` - Updated PMR446 profile
+* `PRO PMR LPD NEW.dat` - Updated PMR446+LPD profile
+
+**NC Variant**: Uses same profile structure with NC feature parameters
+pre-calibrated for Noise Cancelling TX and Dual Watch timing.
+
+**Best Practice**: For most G18-PRO users, use `PRO PMR.dat` (PMR446-only,
+ensures regulatory compliance).
+
+### PRG-G15 Workflow
+
+**3-Step Programming Cycle**:
+
+1. **Read**: Load current radio settings into software
+   * Software detects radio model automatically
+   * Reads channel list, CTCSS/DCS settings, feature state
+2. **Edit**: Modify settings in software interface
+   * Adjust per-channel CTCSS, DCS, RX/TX attributes
+   * Configure optional features (Emergency, VOX, etc.)
+3. **Write**: Send modified settings back to radio
+   * Software verifies changes before transmission
+   * Radio updates internal memory and confirms
+
+**Important**: Radio must remain powered and connected during entire cycle. Loss
+of USB connection aborts operation.
+
+### Advanced Settings and Optional Menus
+
+**Accessible via PRG-G15 Software**:
+
+* **Optional Menus**: NC features, Only-CH Mode, BCL, Compander
+* **Advanced Settings**: Per-channel Noise Cancelling sensitivity, Dual Watch
+  primary/secondary channel designation
+* **Test Mode**: 14 test parameters for NC variant (10 for standard)
+
+**Note**: Some settings only appear when appropriate radio model detected. NC
+features absent if standard G18-PRO connected.
+
+### Language Files
+
+The software includes language support files:
+
+* `lang_G18PRONC_en.xml` - English UI for NC variant
+* `lang_G18PRO_en.xml` - English UI for standard variant
+* Additional language variants available
+
+**Configuration**: Set via software preferences (typically defaults to system
+language).
+
+### Troubleshooting: Resetting Software
+
+If software fails to detect radio or settings appear corrupted:
+
+1. Close PRG-G15
+2. Navigate to PRG-G15 installation directory
+3. Delete `setting.xml` (software configuration file)
+4. Delete `config.xml` (radio detection cache)
+5. Restart PRG-G15
+6. Reconnect radio via USB
+
+**Warning**: Deleting configuration files resets software to defaults, including
+custom window positions and preferences.
+
+### Version Compatibility
+
+| Software Version | Model 3 Support | Model 4 Support | NC Features |
+|---|---|---|---|
+| V1.1.24 and earlier | ✓ Yes | ✗ No | Unavailable |
+| V1.1.25+ | ✓ Yes | ✓ Yes | Available |
+
+**Update Required**: If using G18-PRO NC, you **must** have PRG-G15 V1.1.25 or
+later to access NC features (Dual Watch, Noise Cancelling TX, Only-CH Mode).
+
 ## Additional Resources
 
 * **User Manual**: See `../manuals/` for English, German, and French manuals
