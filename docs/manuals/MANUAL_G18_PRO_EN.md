@@ -7,7 +7,7 @@
 > This is an **unofficial** markdown transcript for searchability and convenience.
 > For the official documentation, refer to: [MANUAL_G18_PRO_EN.pdf](MANUAL_G18_PRO_EN.pdf)
 
-**PMR446 Transceiver — Official Instruction Guide**
+## PMR446 Transceiver — Official Instruction Guide
 
 **Coverage**: Depending on terrain (up to 12+ km in open space)
 
@@ -16,6 +16,7 @@
 ## Table of Contents
 
 - [Midland G18 PRO Instruction Guide](#midland-g18-pro-instruction-guide)
+  - [PMR446 Transceiver — Official Instruction Guide](#pmr446-transceiver--official-instruction-guide)
   - [Table of Contents](#table-of-contents)
     - [Programming software (optional)](#programming-software-optional)
     - [What’s in the box](#whats-in-the-box)
@@ -440,9 +441,12 @@ To select a CTCSS tone:
 3. Push ENT to enter the function;
 4. Turn the Encoder knob and select the desired CTCSS tone
 5. To confirm, press the ENT button.
+
 *The setting of a CTCSS tone disables all DCS codes, because these functions cannot be*
 *used simultaneously.*
+
 If you want to use and select a DCS code, instead of a CTCSS tone, follow these steps:
+
 1. Press the MENU button;
 2. Turn the Encoder knob till: “C-CDC”(in TX and RX); “R-CDC”(only in RX) or
 “T-CDC” (only in TX) appears on the display;

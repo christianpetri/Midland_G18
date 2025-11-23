@@ -5,7 +5,7 @@
 > Dies ist eine **inoffizielle** Markdown-Transkription für Durchsuchbarkeit und Komfort.
 > Für die offizielle Dokumentation siehe: [MANUAL_G18_PRO_GER.pdf](MANUAL_G18_PRO_GER.pdf)
 
-**PMR446 Transceiver — Bedienungsanleitung**
+## PMR446 Transceiver — Bedienungsanleitung
 
 **Reichweite\***: Abhängig vom Gelände.
 
@@ -14,6 +14,7 @@
 ## Inhaltsverzeichnis
 
 - [Midland G18 PRO Bedienungsanleitung](#midland-g18-pro-bedienungsanleitung)
+  - [PMR446 Transceiver — Bedienungsanleitung](#pmr446-transceiver--bedienungsanleitung)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Einführung](#einführung)
     - [Programmiersoftware (optional)](#programmiersoftware-optional)

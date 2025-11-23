@@ -315,6 +315,7 @@ status.
 ### Supported Radio Models
 
 **Standard Models (Model Code 3)**:
+
 * G18-PRO
 * G15-PRO
 * G18
@@ -322,6 +323,7 @@ status.
 * Arctic
 
 **NC Variants (Model Code 4)**:
+
 * G18-PRO NC
 * G15-PRO NC
 
@@ -340,6 +342,7 @@ not supported by current PRG-G15 software.
 The software uses `.dat` files to store frequency and feature configurations:
 
 **Standard Configuration Profiles**:
+
 * `default.dat` - Factory defaults
 * `PRO.dat` - Full 400-520 MHz band
 * `PRO PMR.dat` - PMR446 only (446.00625-446.19375 MHz)
