@@ -209,6 +209,17 @@ After programming, thoroughly test all configurations:
 
 ## Programmable Features Reference
 
+### Scan Modes
+
+**Three scan behavior types accessible via Menu > SCANS**:
+
+* **TO (Time-Operated)** - 5-second pause on signal, then resume scanning
+* **CO (Carrier-Operated)** - Stop on signal, resume when signal ends
+* **SE (Search)** - Exit scan mode immediately on first signal
+
+**Channel Exclusion**: Press ENT 4 seconds on any channel to toggle exclude/include
+status.
+
 ### CTCSS/DCS Codes
 
 * **CTCSS Tones**: 50 standard tones (67.0 Hz - 254.1 Hz)

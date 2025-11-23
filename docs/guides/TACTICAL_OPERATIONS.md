@@ -219,6 +219,22 @@ Consult programming software manual for complete list of assignable functions.
 * **Alternative**: Manual PTT for better control
 * **Optional**: Can be enabled for hands-free operation in quiet environments
 
+### Channel Scanning Modes
+
+**Scan Mode Settings**: Three different scan behavior options available via Menu >
+SCANS:
+
+* **TO (Time-Operated Scan)** - Pauses 5 seconds when signal detected, then
+  resumes scanning even if signal continues. Best for: Monitoring channels while
+  tracking activity.
+* **CO (Carrier-Operated Scan)** - Stops on active channel, resumes when signal
+  ends. Best for: Staying on active communications, monitoring team traffic.
+* **SE (Search Scan)** - Stops completely and exits scan mode on first signal
+  detected. Best for: Finding active channels, emergency response mode.
+
+**Exclusion**: Press ENT for 4 seconds on any channel to exclude/include it from
+scan list.
+
 ### Time-Out Timer (TOT)
 
 * **Recommended Setting**: 3 minutes (180 seconds)
