@@ -1,0 +1,292 @@
+# PRG-G15 Programming Guide
+
+Complete guide for programming the Midland G18 PRO radio using the PRG-G15
+software and programming cable kit.
+
+## Required Equipment
+
+### Programming Cable Kit
+
+**Programming Cable Kit Required**: To use PRG-G15 software, you must purchase
+the **Midland PRG-G15 Programming Kit C1131**.
+
+**Kit Contents:**
+
+* USB programming cable
+* PRG-G15 software (CD-ROM/USB or download)
+* Compatible with G15/G15 PRO/G18/Arctic models
+
+**Purchase Information:**
+
+* **Official Source**:
+  [Midland Europe Store](https://www.midlandeurope.com/en_150/products/prg-g15)
+* **Price**: €36.00
+* **Part Number**: C1131
+* **EAN**: 8011869193460
+* **Availability**: Midland Europe and authorized dealers worldwide
+
+**Important Note**: Software and cable are for experienced users. No instruction
+manual or support hotline included with kit.
+
+### Software Download
+
+* **Official Download**:
+  [PRG-G15 at Midland Support](https://support.midlandeurope.com/en_150/products/g18-pro)
+* **Included With**: Programming cable kit (CD-ROM/USB)
+* **System Requirements**: Not publicly documented (likely Windows 7 or newer
+  with USB support)
+
+## PRG-G15 Software Capabilities
+
+The PRG-G15 programming software allows you to customize the following radio
+features:
+
+### Radio Functions
+
+* **CTCSS/DCS Codes** - Configure privacy tones (50 CTCSS + 105 DCS
+  codes)
+* **TOT (Time-Out Timer)** - Set transmission timeout limits (30-270
+  seconds)
+* **VOX Sensitivity** - Adjust voice-activation threshold (1-9 levels)
+* **ROGER BEEP** - Enable/disable end-of-transmission tone
+* **SQUELCH Levels** - Configure noise suppression (0-9 levels)
+* **VOICE Prompts** - Enable/disable audio announcements
+* **RRM Channel** - Restricted Radio Mode (Italy-specific regulatory
+  channel)
+
+### Advanced Features
+
+* **Emergency Button** - Enable/disable alarm function (3-second hold
+  activation)
+* **FM Radio** - Enable broadcast receiver mode
+* **Compander** - Audio compression for clearer communications
+* **PF3/PF4 Buttons** - Reprogram function key assignments
+
+### Important Limitations
+
+* **Cannot modify frequencies** - Locked to PMR446 band
+  (446.00625-446.19375 MHz)
+* **Cannot change output power** - Fixed at ≤500mW ERP per regulations
+* **Regulatory Compliance** - Modifying these would invalidate PMR446
+  approval
+
+## Step-by-Step Programming Guide
+
+### Preparation
+
+* [ ] **Purchase Midland PRG-G15 Kit C1131** (€36 official, includes USB cable + software)
+* [ ] **Backup existing settings** before programming (if possible)
+* [ ] **Charge battery** to full capacity (prevents power loss during programming)
+* [ ] **Install programming software** and USB drivers
+* [ ] **Connect programming cable** securely to radio and computer
+
+### Installing Software
+
+1. **Download or Install PRG-G15**:
+   * From CD/USB included with cable kit, or
+   * Download from [Midland Support Page](https://support.midlandeurope.com/en_150/products/g18-pro)
+2. **Install USB Drivers**: Follow software installer prompts
+3. **Connect Cable**: Attach programming cable to radio and USB port
+4. **Power On Radio**: Turn on radio before launching software
+5. **Launch PRG-G15**: Open software and detect radio
+
+### Basic Configuration (Front Panel Menu)
+
+These settings can be configured without PRG-G15 software using the radio's
+front panel menu:
+
+* [ ] Set **TX Power** to Low via Menu > POW (both modes = 500mW)
+* [ ] Set **TOT** to desired timeout (30-270 sec) via Menu > TOT
+* [ ] Disable **VOX** initially via Menu > VOX > OFF
+* [ ] Adjust **SQL** (Squelch) to level 5 via Menu > SQL
+* [ ] Configure **CTCSS/DCS** via Menu > C-CDC/R-CDC/T-CDC
+
+### Advanced Configuration (PRG-G15 Software Required)
+
+These features require PRG-G15 programming software:
+
+* [ ] **BCL (Busy Channel Lockout)**: Enable to prevent transmitting over active communications
+* [ ] **Emergency Button**: Enable 3-second hold activation
+* [ ] **FM Radio**: Enable broadcast receiver feature
+* [ ] **Compander**: Enable audio compression
+* [ ] **ROGER BEEP**: Enable end-of-transmission tone (optional)
+* [ ] **VOICE Prompts**: Configure spoken announcements (on/off)
+* [ ] **RRM Channel**: Configure Italy-specific channel (if applicable)
+
+### Button Programming (Custom Setup)
+
+#### Factory Default Assignments
+
+* **PF3 Short Press**: Monitor (recommended to keep)
+* **PF4 Long Press**: Scan (recommended to keep)
+
+#### Optional Custom Programming
+
+* [ ] **PF3 Long Press**: Assign to frequently-used function
+  * Options: FM Radio toggle, VOX toggle, Channel Up/Down, or leave unassigned
+* [ ] **PF4 Short Press**: Assign to quick-access function
+  * Options: Power toggle (not recommended), Channel switch, or leave unassigned
+* [ ] **Emergency Button**: Enable via PRG-G15 (3-second hold activation)
+
+**Note**: Power toggle is not recommended since both Low and High modes output
+identical 500mW ERP - the toggle only changes the display indicator.
+
+### Testing and Validation
+
+After programming, thoroughly test all configurations:
+
+* [ ] **Test all button functions**: Verify PF3, PF4, Emergency button
+* [ ] **Verify emergency alarm**: Test 3-second hold activation
+* [ ] **Check power toggle**: Confirm menu access (if assigned)
+* [ ] **Test FM radio**: Verify receiver operation (if enabled)
+* [ ] **Validate scan**: Check channel scanning performance
+* [ ] **Test CTCSS/DCS**: Verify privacy tones with another radio
+* [ ] **Check TOT**: Verify timeout timer operation
+* [ ] **Test VOX**: Verify voice activation (if enabled)
+
+## Programming Safety and Best Practices
+
+### Configuration Backup
+
+* **Always backup settings** before making changes (if software supports)
+* **Document all modifications** in a spreadsheet or text file
+* **Test thoroughly** after programming
+* **Keep backup configurations** available for restoration
+
+### Validation Testing
+
+* **Test all functions** after programming
+* **Verify compliance** with local PMR446 regulations
+* **Check operation** in target environment (tactical, hiking, etc.)
+* **Confirm emergency features** work correctly
+
+### Common Programming Issues
+
+#### Radio Not Detected
+
+* **Verify cable connection**: Ensure secure connection to radio and USB port
+* **Check USB drivers**: Reinstall drivers if necessary
+* **Try different USB port**: Some ports may have compatibility issues
+* **Restart software**: Close and reopen PRG-G15
+* **Power cycle radio**: Turn radio off and on
+
+#### Programming Errors
+
+* **Verify radio model**: Confirm PRG-G15 supports G18 PRO
+* **Check battery level**: Ensure sufficient charge (>50%)
+* **Restart programming**: Cancel and retry operation
+* **Consult software manual**: Review troubleshooting section
+
+#### Settings Not Saving
+
+* **Complete programming cycle**: Follow all software prompts
+* **Write to radio**: Ensure "Write" or "Program" command executed
+* **Verify with radio**: Check settings via radio menu after programming
+* **Test in field**: Confirm programmed features work as expected
+
+## Programmable Features Reference
+
+### CTCSS/DCS Codes
+
+* **CTCSS Tones**: 50 standard tones (67.0 Hz - 254.1 Hz)
+* **DCS Codes**: 105 digital codes
+* **Purpose**: Filter out unwanted transmissions, create "private" channels
+* **Compatibility**: Coordinate codes with team members
+* **Note**: Does not encrypt communications
+
+### Time-Out Timer (TOT)
+
+* **Range**: 30-270 seconds (or disabled)
+* **Recommended**: 180 seconds (3 minutes) for general use
+* **Purpose**: Prevents accidental extended transmissions
+* **Benefit**: Conserves battery, promotes channel sharing
+
+### VOX (Voice Operated Exchange)
+
+* **Sensitivity Levels**: 1-9 (or disabled)
+* **Recommended**: Disabled for tactical operations
+* **Use Case**: Hands-free operation in quiet environments
+* **Limitation**: Not suitable for noisy environments
+
+### ROGER BEEP
+
+* **Function**: End-of-transmission tone confirmation
+* **Use Case**: Group coordination, confirms PTT release
+* **Compatibility**: May not work with non-Midland radios
+* **Note**: Can be annoying in some situations
+
+### VOICE Prompts
+
+* **Function**: Spoken announcements for channel, settings
+* **Use Case**: Accessibility, hands-free confirmation
+* **Limitation**: Disclose radio activity (not stealth-friendly)
+* **Recommendation**: Disable for tactical operations
+
+### Compander
+
+* **Function**: Audio compression/expansion for clearer communications
+* **Benefit**: Reduces background noise, enhances voice clarity
+* **Compatibility**: Both transmit and receive radios should match
+* **Note**: May not work with non-Midland radios
+
+### Emergency Button
+
+* **Activation**: 3-second hold (prevents accidental triggering)
+* **Function**: 30-second alarm tone + 30-second open transmission
+* **Configuration**: Must be enabled via PRG-G15
+* **Test Regularly**: Verify functionality before deployments
+
+### FM Radio
+
+* **Function**: FM broadcast receiver mode
+* **Requirement**: Must be enabled via PRG-G15
+* **Use Case**: Entertainment during downtime, emergency news monitoring
+* **Note**: Drains battery faster than PMR446 receive mode
+
+### Busy Channel Lockout (BCL)
+
+* **Function**: Prevents transmission on occupied channels
+* **Benefit**: Avoids interference, promotes radio etiquette
+* **Configuration**: Enable via PRG-G15
+* **Use Case**: Tactical operations, busy channels
+
+## Mixed Radio Group Considerations
+
+### Cross-Brand Compatibility
+
+**Standard PMR446 Features** (work across all brands):
+
+* **Frequencies**: 446.00625-446.19375 MHz
+* **CTCSS/DCS Codes**: Standard tones and codes
+* **PTT Operation**: Push-to-talk functionality
+* **Channel Spacing**: 12.5 kHz
+
+**Midland-Specific Features** (may not work with other brands):
+
+* **ROGER BEEP**: May not be recognized by non-Midland radios
+* **Compander**: Requires both radios to support and enable
+* **Scrambler**: Proprietary implementation varies by manufacturer
+* **FM Radio**: Midland-specific feature
+
+### Recommendations for Mixed Groups
+
+* **Use standard frequencies and CTCSS/DCS codes only**
+* **Disable ROGER BEEP** if communicating with other brands
+* **Disable Compander** unless all radios support it
+* **Avoid proprietary features** for cross-brand compatibility
+* **Test thoroughly** before deploying in critical situations
+
+## Additional Resources
+
+* **User Manual**: See `docs/` folder for English, German, French manuals
+* **Programming Software**: [PRG-G15 Download](https://support.midlandeurope.com/en_150/products/g18-pro)
+* **Programming Cable Kit**: [Official Midland Store](https://www.midlandeurope.com/en_150/products/prg-g15)
+* **Official Support**: [G18 PRO Support Page](https://support.midlandeurope.com/en_150/products/g18-pro)
+* **Community Forums**: User experiences and programming tips
+
+---
+
+*For configuration profiles, see [HYBRID_PROFILE.md](HYBRID_PROFILE.md)*
+
+*For tactical operations guide, see
+[TACTICAL_OPERATIONS.md](TACTICAL_OPERATIONS.md)*
