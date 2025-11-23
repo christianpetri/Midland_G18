@@ -79,15 +79,15 @@ Radio → Optional Menus → Only-CH Mode → [On/Off]
 
 ### Test Mode Expansion
 
-The NC variant includes 14 test mode columns (vs. 10 in standard):
+The NC variant includes 14 test mode columns and 14 test mode rows (vs. 10 columns and 21 rows in standard):
 
-| Test Parameter | Count | Purpose |
+| Aspect | Standard G18-PRO | G18-PRO NC |
 |---|---|---|
-| Standard tests | 10 | Battery, frequency, power, SQL, etc. |
-| New tests | 4 | Noise cancelling, dual watch calibration |
-| **Total** | **14** | Comprehensive diagnostics |
+| **Test Columns** | 10 | 14 |
+| **Test Rows** | 21 | 14 |
+| **Channel Info Columns** | 15 | 15 |
 
-New test items specifically for NC:
+**New test parameters** in NC variant (expanded test diagnostics):
 
 - Noise Cancelling algorithm calibration
 - Dual Watch switching timing
