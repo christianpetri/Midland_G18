@@ -62,11 +62,15 @@ to create 99 selectable channel options.
 * **[Channel List](docs/reference/CHANNELS.md)** - Complete 99-channel configuration table
 * **[Documentation Index](docs/README.md)** - Folder map for guides, manuals, references
 * **Official Manuals**
-  * **English (PDF, official)**: [MANUAL_G18_PRO_EN.pdf](docs/manuals/MANUAL_G18_PRO_EN.pdf)
-  * **English (Markdown transcript)**: [MANUAL_G18_PRO_EN.md](docs/manuals/MANUAL_G18_PRO_EN.md)
-  * **German (PDF)**: [MANUAL_G18_PRO_GER.pdf](docs/manuals/MANUAL_G18_PRO_GER.pdf)
-  * **German (Markdown transcript)**: [MANUAL_G18_PRO_GER.md](docs/manuals/MANUAL_G18_PRO_GER.md)
-  * **French (PDF)**: [MANUAL_G18_PRO_FRA.pdf](docs/manuals/MANUAL_G18_PRO_FRA.pdf)
+  * **English**: [PDF (official)](docs/manuals/MANUAL_G18_PRO_EN.pdf) |
+    [Markdown](docs/manuals/MANUAL_G18_PRO_EN.md) ⭐ *Enhanced with diagrams, tables, clickable TOC*
+  * **German**: [PDF](docs/manuals/MANUAL_G18_PRO_GER.pdf) |
+    [Markdown](docs/manuals/MANUAL_G18_PRO_GER.md) ⭐ *Enhanced with tables, clickable TOC*
+  * **French**: [PDF](docs/manuals/MANUAL_G18_PRO_FRA.pdf)
+  
+  > 📄 **Note**: Markdown versions are professionally formatted transcripts of the official PDFs
+  > with enhanced readability, embedded radio diagrams, searchable text, and clickable navigation.
+  > Content is 100% accurate to the official manuals.
 * **[Operational Checklists](checklists/)** - Pre-Mission, Mission Execution,
   Post-Mission
 

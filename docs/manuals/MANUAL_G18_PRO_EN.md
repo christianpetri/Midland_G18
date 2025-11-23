@@ -2,6 +2,11 @@
 
 ![PMR446](https://img.shields.io/badge/PMR446-Official%20Manual-blue?style=flat-square) ![IP67](https://img.shields.io/badge/IP67-Certified-green?style=flat-square)
 
+> **⚠️ UNOFFICIAL MARKDOWN VERSION**
+>
+> This is an **unofficial** markdown transcript for searchability and convenience.
+> For the official documentation, refer to: [MANUAL_G18_PRO_EN.pdf](MANUAL_G18_PRO_EN.pdf)
+
 **PMR446 Transceiver — Official Instruction Guide**
 
 **Coverage**: Depending on terrain (up to 12+ km in open space)
