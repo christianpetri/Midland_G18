@@ -116,17 +116,17 @@ power immediately and take off the charger or battery from the radio.
 
 ![LCD Display](images/lcd_display.png)
 
-a.  Keypad lock
-b.  Selected CTCSS tone or DCS code
-c.  Number of the menu/channel indicator
-d.  Battery status indicator
-e.  Channel in use
-f.  Priority scan mode
-g.  VOX function activated
-h.  Low power indicator
-i.  Function key activated
-j.  Indicator of rx and tx signal strength
-k.  Channel temporarily not scanned
+- **a.** Keypad lock
+- **b.** Selected CTCSS tone or DCS code
+- **c.** Number of the menu/channel indicator
+- **d.** Battery status indicator
+- **e.** Channel in use
+- **f.** Priority scan mode
+- **g.** VOX function activated
+- **h.** Low power indicator
+- **i.** Function key activated
+- **j.** Indicator of rx and tx signal strength
+- **k.** Channel temporarily not scanned
 
 ### Radio
 
