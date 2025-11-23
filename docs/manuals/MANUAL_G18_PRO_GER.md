@@ -1,45 +1,46 @@
-# G18 PRO
+# Midland G18 PRO Bedienungsanleitung
 
-PMR446 TRANSCEIVER
-› BEDIENUNGSANLEITUNG
-**Coverage***
+**PMR446 Transceiver — Bedienungsanleitung**
 
-- Depending on terrain
+**Reichweite\***: Abhängig vom Gelände.
+
+\* Die Reichweite variiert je nach Umgebungsbedingungen.
 
 ## Inhalt
 
-Einführung 1
-Inhalt 2
-Eigenschaften 2
-Abdeckung/Reichweite 3
-Sicherheits- und Warnhinweise 3
-Hauptbedienelemente und Aufau des Funkgerätes b 4
-LCD Display 4
-Hauptbedienelemente und Aufau des Funkgerätes b 5
-Akku aufaden 7
-l
-Bedienung 8
-Ein- und Ausschalten und Lautstärkeeinstellung 8
-Senden und Empfangen 8
-Monitor 8
-Alarmfunktion (Notruf) 9
-MENÜ-Funktionen 10
-Scannen 10
-PRI (Prioritäts-Scan) 10
-VOX 10
-POW – Sendeleistung einstellen 11
-Rauschsperre 11
-Scrambler 11
-Display-Beleuchtung 12
-Tastenton ein- und ausschalten 12
-Tastensperre (KEYBO) 13
-TOT  Sendezeit-Begrenzung 13
-Suchlauf-Einstellungen 13
-Sprachführung 14
-C-CDC / R-CDC / T-CDC 14
-Name 15
-Technische Spezifkationen i 16
-Fehlersuche 17
+| Abschnitt | Seite |
+|-----------|-------|
+| Einführung | 1 |
+| Inhalt | 2 |
+| Eigenschaften | 2 |
+| Abdeckung/Reichweite | 3 |
+| Sicherheits- und Warnhinweise | 3 |
+| Hauptbedienelemente und Aufbau des Funkgerätes | 4 |
+| LCD Display | 4 |
+| Hauptbedienelemente und Aufbau des Funkgerätes | 5 |
+| Akku aufladen | 7 |
+| Bedienung | 8 |
+| Ein- und Ausschalten und Lautstärkeeinstellung | 8 |
+| Senden und Empfangen | 8 |
+| Monitor | 8 |
+| Alarmfunktion (Notruf) | 9 |
+| MENÜ-Funktionen | 10 |
+| Scannen | 10 |
+| PRI (Prioritäts-Scan) | 10 |
+| VOX | 10 |
+| POW – Sendeleistung einstellen | 11 |
+| Rauschsperre | 11 |
+| Scrambler | 11 |
+| Display-Beleuchtung | 12 |
+| Tastenton ein- und ausschalten | 12 |
+| Tastensperre (KEYBO) | 13 |
+| TOT – Sendezeit-Begrenzung | 13 |
+| Suchlauf-Einstellungen | 13 |
+| Sprachführung | 14 |
+| C-CDC / R-CDC / T-CDC | 14 |
+| Name | 15 |
+| Technische Spezifikationen | 16 |
+| Fehlersuche | 17 |
 
 ## Einführung
 
@@ -124,6 +125,7 @@ A B K C D
 I H J
 G
 F
+
 a. Tastatursperre
 b. Gewählter CTCSS-Ton oder DCS-Code
 c. Nummer des Menüs/Kanal
@@ -147,8 +149,6 @@ gegen den Uhrzeigersinn drehen.
 5. Mikrofon
 6. LED-Anzeige: ROT:TX (Senden); GRÜN: RX (Empfang)
 7. Notfall-Taste: (Aktivierung über Programmier-Software möglich)
-8
-9
 8. PTT: Drücken Sie diese Taste zum Senden und lassen Sie sie zum Empfangen
 9. Funktionstaste 1: Drücken: Überwachungsfunktion aktivieren (PF3).
 10. Funktionstaste 2: Langer Druck: SCAN Funktion wird aktiviert (PF4).
@@ -445,77 +445,61 @@ Es kann ein Name anstatt der Kanalnummer eingestellt werden, um im Display angez
 
 ## Technische Spezifikationen
 
-ALLGEMEIN
-Frequenzbereich 446.00625- 446.19375 MHz (PMR446)
-Kanäle 16+83 Voreinstellungen
-Betriebstemperatur -20° bis +55°
-Betriebsspannung 7.4V
-Betriebsmodus Simplex
-Abmessungen 113mm×56mm×38mm (ohne Antenne)
-Gewicht 240g (einschließlich Batterie)
-Impedanz Antenne 50Ω
-Arbeitszyklus 5/5/90%
-SENDER
-Frequenzstabilität ±2.5 PPM
-Ausgangsleistung ≤500mW ERP
-Max. Frequenzabweichung ≤2,5KHz
-Tonverzerrung ≤3%
-Nachbarkanalleistung < 60 dB
-Störstrahlung Innerhalb der europäischen Bestimmungen
-Bandbreite Innerhalb der europäischen Bestimmungen
-EMPFÄNGER
-HF Empfindlichkeit <0.2UV@20 dB SINAD
-Tonverzerrung ≤3%
-Sprachausgabe 300Hz ÷ 3KHz
-Nachbarkanaldämpfung Innerhalb der euopäischen Bestimmungen
-Intermodulationsfestikeit Innerhalb der euopäischen Bestimmungen
-Nebenwellen-Aussendungen Innerhalb der euopäischen Bestimmungen
-Blockiert Innerhalb der euopäischen Bestimmungen
-SAR 0,982W/Kg
+### ALLGEMEIN
+
+| Parameter | Spezifikation |
+|-----------|---------------|
+| Frequenzbereich | 446.00625- 446.19375 MHz (PMR446) |
+| Kanäle | 16+83 Voreinstellungen |
+| Betriebstemperatur | -20° bis +55° |
+| Betriebsspannung | 7.4V |
+| Betriebsmodus | Simplex |
+| Abmessungen | 113mm×56mm×38mm (ohne Antenne) |
+| Gewicht | 240g (einschließlich Batterie) |
+| Impedanz | Antenne 50Ω |
+| Arbeitszyklus | 5/5/90% |
+
+### SENDER
+
+| Parameter | Spezifikation |
+|-----------|---------------|
+| Frequenzstabilität | ±2.5 PPM |
+| Ausgangsleistung | ≤500mW ERP |
+| Max. Frequenzabweichung | ≤2,5KHz |
+| Tonverzerrung | ≤3% |
+| Nachbarkanalleistung | < 60 dB |
+| Störstrahlung | Innerhalb der europäischen Bestimmungen |
+| Bandbreite | Innerhalb der europäischen Bestimmungen |
+
+### EMPFÄNGER
+
+| Parameter | Spezifikation |
+|-----------|---------------|
+| HF Empfindlichkeit | <0.2UV@20 dB SINAD |
+| Tonverzerrung | ≤3% |
+| Sprachausgabe | 300Hz ÷ 3KHz |
+| Nachbarkanaldämpfung | Innerhalb der europäischen Bestimmungen |
+| Intermodulationsfestigkeit | Innerhalb der europäischen Bestimmungen |
+| Nebenwellen-Aussendungen | Innerhalb der europäischen Bestimmungen |
+| Blockiert | Innerhalb der europäischen Bestimmungen |
+| SAR | 0,982W/Kg |
 _WARNUNG: Das Netzteil muss von der Steckdose abgezogen werden, um den Tran-_
 _sceiver vollständig vom Stromnetz zu trennen. Das Ladegerät muss sich in der Nähe des_
 _Gerätes befinden und muss jederzeit frei zugänglich sein._
 
 ## Fehlersuche
 
-Problem mögliche Ursache Lösung
-Das Gerät schaltet Akku ist leer oder nicht Akku aufladen und entsprenicht ein richtig eingelegt chend dieser Anleitung
-einlegen
-Gerät schaltet sich ein, Lautstärke zu gering ein- Lautstärke prüfen, mit Moempfängt aber nichts gestellt nitortaste prüfen ob Rauschen zu hören ist
-Keine Funkverbindung Falsche Kanal –, CTCSS-, Kanal, CTCSS und DCS
-möglich oder DCS-Einstellung Nummer prüfen. Alle am
-Gespräch beteiligten Stationen müssen die gleichen
-Einstellungen haben
-Empfang unterbrochen
-oder mit starkem Rau
-schen
-Signal ist zu schwach Funktionstaste 1 (Monitor) drücken um die Rauschsperre vorübergehend
-abzuschalten
-Gegenseite ist zu weit
-entfernt oder Antenne auf
-einer oder beiden Seiten
-abgeschirmt durch Hindernisse zwischen beiden
-Seiten
-Einen anderen Standort für
-eines der Geräte suchen
-oder mit einem Gerät ins
-Freie gehen
-Andere Stationen benutzen Funkverkehr auf Ausweiden gleichen Kanal chkanälen prüfen und ggf.
-anderen Kanal ausprobieren,
-falls erlaubt
-Funkgerät befindet sich zu
-nahe an möglichen Störquellen, wie Computer,
-Inverter, TV Gerät, Radargerät, andere Sender
-Funkgerät so weit wie
-möglich von störenden
-Geräten entfernt platzieren.
-Batterie ist zu schnell Tastaturbeleuchtung zu oft Displaybeleuchtung selteleer benutzt ner gebrauchen
-Zu lange Sendezeiten oder
-zu lange mit hoher Leistung
-gesendet
-Sendezeit verringern oder
-häufiger mit kleiner Leistung
-senden
+| Problem | Mögliche Ursache | Lösung |
+|---------|------------------|--------|
+| Das Gerät schaltet nicht ein | Akku ist leer oder nicht richtig eingelegt | Akku aufladen und entsprechend dieser Anleitung einlegen |
+| Gerät schaltet sich ein, empfängt aber nichts | Lautstärke zu gering eingestellt | Lautstärke prüfen, mit Monitortaste prüfen ob Rauschen zu hören ist |
+| Keine Funkverbindung möglich | Falsche Kanal-, CTCSS- oder DCS-Einstellung | Kanal, CTCSS und DCS Nummer prüfen. Alle am Gespräch beteiligten Stationen müssen die gleichen Einstellungen haben |
+| Empfang unterbrochen oder mit starkem Rauschen | Signal ist zu schwach | Funktionstaste 1 (Monitor) drücken um die Rauschsperre vorübergehend abzuschalten |
+| Empfang unterbrochen oder mit starkem Rauschen | Gegenseite ist zu weit entfernt oder Antenne auf einer oder beiden Seiten abgeschirmt durch Hindernisse zwischen beiden Seiten | Einen anderen Standort für eines der Geräte suchen oder mit einem Gerät ins Freie gehen |
+| Empfang unterbrochen oder mit starkem Rauschen | Andere Stationen benutzen den gleichen Kanal | Funkverkehr auf Ausweichkanälen prüfen und ggf. anderen Kanal ausprobieren, falls erlaubt |
+| Empfang unterbrochen oder mit starkem Rauschen | Funkgerät befindet sich zu nahe an möglichen Störquellen, wie Computer, Inverter, TV Gerät, Radargerät, andere Sender | Funkgerät so weit wie möglich von störenden Geräten entfernt platzieren |
+| Batterie ist zu schnell leer | Tastaturbeleuchtung zu oft benutzt | Displaybeleuchtung seltener gebrauchen |
+| Batterie ist zu schnell leer | Zu lange Sendezeiten oder zu lange mit hoher Leistung gesendet | Sendezeit verringern oder häufiger mit kleiner Leistung senden |
 Prodotto o importato da
 MIDLAND EUROPE S.r.l.
 Via R.Sevardi 7 - 42124 Reggio Emilia - Italia
