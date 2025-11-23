@@ -13,42 +13,44 @@
 
 ## Inhaltsverzeichnis
 
-- [Einführung](#einführung)
-- [Programmiersoftware (optional)](#programmiersoftware-optional)
-- [Inhalt](#inhalt)
-- [Eigenschaften](#eigenschaften)
-- [Abdeckung/Reichweite](#abdeckungreichweite)
-- [Sicherheits- und Warnhinweise](#sicherheits--und-warnhinweise)
-- [Hauptbedienelemente und Aufbau des Funkgerätes](#hauptbedienelemente-und-aufbau-des)
-  - [LCD Display](#lcd-display)
-  - [Hauptbedienelemente und Aufbau des Funkgerätes](#hauptbedienelemente-und-aufbau-des-funkgerätes)
-- [Akku aufladen](#akku-aufladen)
-- [Bedienung](#bedienung)
-  - [Ein- und Ausschalten und Lautstärkeeinstellung](#ein--und-ausschalten-und-lautstärkeeinstellung)
-  - [Senden und Empfangen](#senden-und-empfangen)
-  - [Monitor](#monitor)
-  - [Roger Beep (Ton beim Ende der Übertragung)](#roger-beep-ton-beim-ende-der-übertragung)
-  - [Alarmfunktion (Notruf)](#alarmfunktion-notruf)
-- [MENÜ-Funktionen](#menü-funktionen)
-  - [Scannen](#scannen)
-  - [PRI (Prioritäts-Scan)](#pri-prioritäts-scan)
-  - [VOX](#vox)
-  - [POW – Sendeleistung einstellen](#pow--sendeleistung-einstellen)
-  - [Rauschsperre](#rauschsperre)
-  - [Scrambler](#scrambler)
-  - [Display-Beleuchtung](#display-beleuchtung)
-  - [Tastenton ein- und ausschalten](#tastenton-ein--und-ausschalten)
-  - [Tastensperre (KEYBO)](#tastensperre-keybo)
-  - [TOT  Sendezeit-Begrenzung](#tot--sendezeit-begrenzung)
-  - [Suchlauf-Einstellungen](#suchlauf-einstellungen)
-  - [Sprachführung](#sprachführung)
-  - [C-CDC / R-CDC / T-CDC](#c-cdc--r-cdc--t-cdc)
-  - [Name](#name)
-- [Technische Spezifikationen](#technische-spezifikationen)
-  - [ALLGEMEIN](#allgemein)
-  - [SENDER](#sender)
-  - [EMPFÄNGER](#empfänger)
-- [Fehlersuche](#fehlersuche)
+- [Midland G18 PRO Bedienungsanleitung](#midland-g18-pro-bedienungsanleitung)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Einführung](#einführung)
+    - [Programmiersoftware (optional)](#programmiersoftware-optional)
+    - [Inhalt](#inhalt)
+    - [Eigenschaften](#eigenschaften)
+    - [Abdeckung/Reichweite](#abdeckungreichweite)
+    - [Sicherheits- und Warnhinweise](#sicherheits--und-warnhinweise)
+  - [Hauptbedienelemente und Aufbau des](#hauptbedienelemente-und-aufbau-des)
+    - [LCD Display](#lcd-display)
+    - [Hauptbedienelemente und Aufbau des Funkgerätes](#hauptbedienelemente-und-aufbau-des-funkgerätes)
+  - [Akku aufladen](#akku-aufladen)
+  - [Bedienung](#bedienung)
+    - [Ein- und Ausschalten und Lautstärkeeinstellung](#ein--und-ausschalten-und-lautstärkeeinstellung)
+    - [Senden und Empfangen](#senden-und-empfangen)
+    - [Monitor](#monitor)
+    - [Roger Beep (Ton beim Ende der Übertragung)](#roger-beep-ton-beim-ende-der-übertragung)
+    - [Alarmfunktion (Notruf)](#alarmfunktion-notruf)
+  - [MENÜ-Funktionen](#menü-funktionen)
+    - [Scannen](#scannen)
+    - [PRI (Prioritäts-Scan)](#pri-prioritäts-scan)
+    - [VOX](#vox)
+    - [POW – Sendeleistung einstellen](#pow--sendeleistung-einstellen)
+    - [Rauschsperre](#rauschsperre)
+    - [Scrambler](#scrambler)
+    - [Display-Beleuchtung](#display-beleuchtung)
+    - [Tastenton ein- und ausschalten](#tastenton-ein--und-ausschalten)
+    - [Tastensperre (KEYBO)](#tastensperre-keybo)
+    - [TOT  Sendezeit-Begrenzung](#tot--sendezeit-begrenzung)
+    - [Suchlauf-Einstellungen](#suchlauf-einstellungen)
+    - [Sprachführung](#sprachführung)
+    - [C-CDC / R-CDC / T-CDC](#c-cdc--r-cdc--t-cdc)
+    - [Name](#name)
+  - [Technische Spezifikationen](#technische-spezifikationen)
+    - [ALLGEMEIN](#allgemein)
+    - [SENDER](#sender)
+    - [EMPFÄNGER](#empfänger)
+  - [Fehlersuche](#fehlersuche)
 
 ## Einführung
 
@@ -174,12 +176,10 @@ Die LED des Ladegeräts zeigt den aktuellen Ladestatus an:
 Rot= Laden
 Grün= Ladevorgang beendet
 Für eine maximale Lebensdauer des Akkus empfehlen wir, den Akku erst aufzuladen, wenn das G18 PRO ausgeschaltet und der Akku vollständig entladen ist.
-*! Bei der Verwendung von Ladegeräten, die nicht für dieses Funkgerät vorgesehen sind,*
-*kann das Gerät beschädigt werden oder Explosionen und Verletzungen verursacht wer-*
-*den.*
-*Die Stromsparfunktion des Akkus reduziert den Verbrauch um ca. 50%. Diese wird auto-*
-*matisch aktiviert, wenn das Funkgerät länger als 5 Sekunden kein Signal empfängt. Die*
-*Stromsparfunktion kann nur über die Programmiersoftware deaktiviert werden.*
+
+! Bei der Verwendung von Ladegeräten, die nicht für dieses Funkgerät vorgesehen sind, kann das Gerät beschädigt werden oder Explosionen und Verletzungen verursacht werden.
+
+Die Stromsparfunktion des Akkus reduziert den Verbrauch um ca. 50%. Diese wird automatisch aktiviert, wenn das Funkgerät länger als 5 Sekunden kein Signal empfängt. Die Stromsparfunktion kann nur über die Programmiersoftware deaktiviert werden.
 
 ## Bedienung
 
@@ -491,9 +491,10 @@ Es kann ein Name anstatt der Kanalnummer eingestellt werden, um im Display angez
 | Nebenwellen-Aussendungen | Innerhalb der europäischen Bestimmungen |
 | Blockiert | Innerhalb der europäischen Bestimmungen |
 | SAR | 0,982W/Kg |
-_WARNUNG: Das Netzteil muss von der Steckdose abgezogen werden, um den Tran-*
-*sceiver vollständig vom Stromnetz zu trennen. Das Ladegerät muss sich in der Nähe des*
-*Gerätes befinden und muss jederzeit frei zugänglich sein.*
+
+*WARNUNG: Das Netzteil muss von der Steckdose abgezogen werden, um den  
+Transceiver vollständig vom Stromnetz zu trennen. Das Ladegerät muss sich  
+in der Nähe des Gerätes befinden und muss jederzeit frei zugänglich sein.*
 
 ## Fehlersuche
 
