@@ -53,8 +53,8 @@
     - [RECEIVER](#receiver)
   - [Troubleshooting](#troubleshooting)
 
-_Thanks for choosing Midland! G18 PRO is a portable transceiver that is free use in all_
-_European countries._
+*Thanks for choosing Midland! G18 PRO is a portable transceiver that is free use in all*
+*European countries.*
 Midland G18 PRO is the new multi-tasks PMR446 transceiver.
 Its robust frame and the IP67 certification ensure a total protection from dust and
 from the immersion in water up to 1mt depth for 30 minutes.
@@ -162,7 +162,7 @@ As for all electronic devices, we recommend you to follow these suggestions:
 |---|-----------|-------------|
 | 1 | Antenna | External antenna |
 | 2 | Encoder | Rotate clockwise or counter-clockwise to select the different settings |
-| 3 | Power/volume knob | Turn clockwise to power on and increase the volume level<br>Turn counter-clockwise to decrease the volume level and power off |
+| 3 | Power/volume knob | Turn clockwise to power on and increase the volume level; turn counter-clockwise to decrease the volume level and power off |
 | 4 | Speaker | Audio output |
 | 5 | Built-in microphone | Microphone for transmitting |
 | 6 | Led indicator | RED: TX / GREEN: RX |
@@ -214,13 +214,13 @@ To communicate, all radios in your group must be set to the same channel.
 Briefly press the Function key 1 to enable the Monitor feature in order to make sure
 that the frequency is not busy, then press the PTT button.
 Release the PTT key to receive.
-_Only one user at a time can talk during radio communications. Therefore, it is important_
-_not to transmit when you are receiving a communication and use the transmission mode_
-_sparingly to allow other users to talk._
-_Transmission consumes a significant amount of energy and should therefore be used_
-_sparingly to prolong the battery life._
-_If you are unable to contact a station that you have no problems in receiving, the station_
-_may be using CTCSS tones or DCS codes._
+*Only one user at a time can talk during radio communications. Therefore, it is important*
+*not to transmit when you are receiving a communication and use the transmission mode*
+*sparingly to allow other users to talk.*
+*Transmission consumes a significant amount of energy and should therefore be used*
+*sparingly to prolong the battery life.*
+*If you are unable to contact a station that you have no problems in receiving, the station*
+*may be using CTCSS tones or DCS codes.*
 
 ### Monitor
 
@@ -244,7 +244,7 @@ then for further 30 seconds will remain in tx to allow the user to communicate h
 status.
 At the end, the radio will switch to reception.
 If needed, the Emergency call can be repeated.
-_Note: this function can be activated through the optional programming software._
+*Note: this function can be activated through the optional programming software.*
 
 ## MENU functions
 
@@ -440,8 +440,8 @@ To select a CTCSS tone:
 3. Push ENT to enter the function;
 4. Turn the Encoder knob and select the desired CTCSS tone
 5. To confirm, press the ENT button.
-_The setting of a CTCSS tone disables all DCS codes, because these functions cannot be_
-_used simultaneously._
+*The setting of a CTCSS tone disables all DCS codes, because these functions cannot be*
+*used simultaneously.*
 If you want to use and select a DCS code, instead of a CTCSS tone, follow these steps:
 1. Press the MENU button;
 2. Turn the Encoder knob till: “C-CDC”(in TX and RX); “R-CDC”(only in RX) or
@@ -450,8 +450,8 @@ If you want to use and select a DCS code, instead of a CTCSS tone, follow these 
 4. Press the Function key 1;
 5. Turn the Encoder knob and select the desired DCS code;
 6. Confirm the selection by pressing the ENT button.
-_The setting of a DCS code disables all CTCSS tones, because these functions cannot be_
-_used simultaneously._
+*The setting of a DCS code disables all CTCSS tones, because these functions cannot be*
+*used simultaneously.*
 
 ### Name - Nome
 
@@ -498,9 +498,10 @@ channel number.
 | Spurious emissions | Within European legal terms |
 | Blocking | Within European legal terms |
 | SAR | 0,982W/Kg |
-_WARNING: Direct plug-in ac/dc power supply must be used for disconnecting the tran-_
-_sceiver from the mains; the desktop charger must be positioned close to the unit and_
-_easily accessible._
+
+*WARNING: Direct plug-in ac/dc power supply must be used for disconnecting  
+the transceiver from the mains; the desktop charger must be positioned close  
+to the unit and easily accessible.*
 
 ## Troubleshooting
 
@@ -521,120 +522,39 @@ _easily accessible._
 | Reception is fragmented and/or disturbed | The radio has been installed too close to equipment that causes interference (televisions, computers, etc.) | Increase the distance between the radio and this equipment. |
 | The autonomy of the battery pack is limited | Transmission time is too long. | Try to reduce the transmission time and/or use a low power. |
 
-Prodotto o importato da
-Verify that the battery
-The radio doesn’t switch The battery pack is di- pack is charged and that
-on scharged and/or has not it has been correctly
-been installed correctly. installed.
-The radio switches off
-Recharge the battery
-shortly after it has been Discharged battery pack.
-switched on pack.
-The radio doesn’t switch
-on
-The battery pack is discharged and/or has not
-been installed correctly.
-Try temporarily to disable
-The signal is very weak. the Squelch by means of
-the Monitor feature.
-The transmission distance
-is excessive and/or Move closer to the party
-there are obstacles in the you are communicating
-with or to another area.
-transmission path
-Check the traffic on the
-radio channel by means
-Other parties are using of the Monitor feature
-the same channel
-and select another channel if required.
-The radio has been
-installed too close to Increase the distance
-equipment that causes between the radio and
-interference (televisions, this equipment.
-computers, etc.)
-Other parties are using
-the same channel
-Reception is fragmented
-and/or disturbed
-Inspect the connections
-of the battery-charger
-and the installation of the
-batteries.
-The battery pack does
-not recharge
-The radio switches on
-but is unable to receive
-signals
-It is not possible to
-communicate with other
-parties
-The battery-charger has
-not been connected or
-installed correctly.
-Select the same radio
-An incorrect radio chan- channel used by the
-nel has been selected. parties you are commu
-nicating with.
-The radio is installed in a
-shielded area or is too far
-Move to another area.
-from the party you are
-communicating with
-The site of installation is
-Move to an another area.
-too shielded.
-The volume is too low Adjust the volume level.
-Increase the distance
-between the radio and
-this equipment.
-Incorrect CTCSS or
-DCS
-Check that the CTCSS
-tone or DCS code
-corresponds to the one
-set by the parties you are
-communicating with.
-The autonomy of the Transmission time is too
-battery pack is limited long.
-Try to reduce the
-transmission time and/or
-use a low power.
-An incorrect radio chan
-nel has been selected.
-Move to another area.
-Incorrect CTCSS or
-DCS
-Check that the CTCSS
-tone or DCS code
-corresponds to the one
-set by the parties you are
-communicating with.
-Prodotto o importato da
+---
+
+**Prodotto o importato da**  
 MIDLAND EUROPE S.r.l.
 Via R.Sevardi 7 - 42124 Reggio Emilia - Italia
-<www.midlandeurope.com>
+<www.midlandeurope.com>  
 Prima dell’uso leggere attentamente le istruzioni.
-Produced or imported by:
+
+**Produced or imported by:**  
 MIDLAND EUROPE S.r.l.
 Via R.Sevardi 7 - 42124 Reggio Emilia - Italy
 <www.midlandeurope.com>
-Imported by:
+
+**Imported by:**  
 ALAN-NEVADA UK
 Unit 1 Fitzherbert Spur Farlington Portsmouth Hants P06 1TT - United Kingdom
-<www.nevada.co.uk>
+<www.nevada.co.uk>  
 Read the instructions carefully before installation and use.
-Vertrieb durch:
+
+**Vertrieb durch:**  
 ALAN ELECTRONICS GmbH
 Daimlerstraße 1g - D-63303 Dreieich - Deutschland
-<www.alan-electronics.de>
+<www.alan-electronics.de>  
 Vor Benutzung Bedienungsanleitung beachten.
-Importado por:
+
+**Importado por:**  
 MIDLAND IBERIA, SA.
 C/Cobalt, 48 - 08940 Cornellà De Llobregat, Barcelona - España
-<www.midland.es>
+<www.midland.es>  
 Antes de utilizar, lea atentamente el manual de uso.
-Importé par:
+
+**Importé par:**  
 ALAN FRANCE S.A.R.L.
 10 impasse Phytagore, 13127 Vitrolles - France
-<www.alan-midland.fr>
+<www.alan-midland.fr>  
 Avant l’utilisation, lire les instructions.

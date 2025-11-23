@@ -52,8 +52,8 @@
 
 ## Einführung
 
-_Vielen Dank, dass Sie Midland gewählt haben! Das G18 PRO ist ein Handfunkgerät zur_
-_freien Benutzung in allen europäischen Ländern._
+*Vielen Dank, dass Sie Midland gewählt haben! Das G18 PRO ist ein Handfunkgerät zur*
+*freien Benutzung in allen europäischen Ländern.*
 Das Midland G18 PRO ist der neue Multi-Task PMR446 Funkgerät. Sein robustes
 Gehäuse und die IP67-Schutzklasse gewährleisten und Wasserdichtheit bis zu 1 m
 Tiefe für 30 Minuten.
@@ -174,12 +174,12 @@ Die LED des Ladegeräts zeigt den aktuellen Ladestatus an:
 Rot= Laden
 Grün= Ladevorgang beendet
 Für eine maximale Lebensdauer des Akkus empfehlen wir, den Akku erst aufzuladen, wenn das G18 PRO ausgeschaltet und der Akku vollständig entladen ist.
-_! Bei der Verwendung von Ladegeräten, die nicht für dieses Funkgerät vorgesehen sind,_
-_kann das Gerät beschädigt werden oder Explosionen und Verletzungen verursacht wer-_
-_den._
-_Die Stromsparfunktion des Akkus reduziert den Verbrauch um ca. 50%. Diese wird auto-_
-_matisch aktiviert, wenn das Funkgerät länger als 5 Sekunden kein Signal empfängt. Die_
-_Stromsparfunktion kann nur über die Programmiersoftware deaktiviert werden._
+*! Bei der Verwendung von Ladegeräten, die nicht für dieses Funkgerät vorgesehen sind,*
+*kann das Gerät beschädigt werden oder Explosionen und Verletzungen verursacht wer-*
+*den.*
+*Die Stromsparfunktion des Akkus reduziert den Verbrauch um ca. 50%. Diese wird auto-*
+*matisch aktiviert, wenn das Funkgerät länger als 5 Sekunden kein Signal empfängt. Die*
+*Stromsparfunktion kann nur über die Programmiersoftware deaktiviert werden.*
 
 ## Bedienung
 
@@ -199,13 +199,13 @@ Um sicherzustellen, dass die Frequenz nicht belegt ist, drücken Sie kurz die
 Funktionstaste 1 zum Aktivieren der Monitor-Funktion.
 Anschließend drücken Sie die PTT-Taste.
 Zum Empfangen lassen Sie die PTT-Taste los.
-_Während der Funkkommunikation kann nur ein Benutzer gleichzeitig sprechen. Daher ist_
-_es wichtig nicht zu senden, wenn Sie einen Funkspruch erhalten und verwenden Sie den_
-_Sendemodus möglichst sparsam, damit andere Benutzer auch senden können._
-_Der Sendemodus hat einen erheblichen Stromverbrauch und er sollte deshalb sparsam_
-_verwendet werden, um die Akkulebensdauer zu erhöhen. Wenn Sie eine Station nicht_
-_erreichen können und Sie keine Empfangsprobleme haben, könnte die Station CTCSS-_
-_Töne oder DCS-Codes verwenden._
+*Während der Funkkommunikation kann nur ein Benutzer gleichzeitig sprechen. Daher ist*
+*es wichtig nicht zu senden, wenn Sie einen Funkspruch erhalten und verwenden Sie den*
+*Sendemodus möglichst sparsam, damit andere Benutzer auch senden können.*
+*Der Sendemodus hat einen erheblichen Stromverbrauch und er sollte deshalb sparsam*
+*verwendet werden, um die Akkulebensdauer zu erhöhen. Wenn Sie eine Station nicht*
+*erreichen können und Sie keine Empfangsprobleme haben, könnte die Station CTCSS-*
+*Töne oder DCS-Codes verwenden.*
 
 ### Monitor
 
@@ -228,8 +228,8 @@ Das G18 PRO sendet für 30 Sekunden einen Alarmton und bleibt danach für 30
 Sekunden auf Sendung, damit der Benutzer seinen Status übertragen kann.
 Am Ende schaltet das Funkgerät auf Empfang.
 Der Notruf kann wiederholt werden.
-_Hinweis: Diese Funktion kann über die optionale Programmiersoftware aktiviert wer-_
-_den._
+*Hinweis: Diese Funktion kann über die optionale Programmiersoftware aktiviert wer-*
+*den.*
 
 ## MENÜ-Funktionen
 
@@ -335,7 +335,7 @@ AUTO: Die Hintergrundbeleuchtung des Displays wird für einige
 Sekunden eingeschaltet, wenn Sie eine beliebige Taste drücken
 OFF: Die Hintergrundbeleuchtung ist ausgeschaltet.
 ON: Die Hintergrundbeleuchtung ist immer an.
-_Achtung: In diesem Modus erhöht sich der Batterieverbrauch._
+*Achtung: In diesem Modus erhöht sich der Batterieverbrauch.*
 5. Bestätigen Sie Ihre Einstellung mit ENT.
 
 ### Tastenton ein- und ausschalten
@@ -347,7 +347,7 @@ Zur Deaktivierung des Tastentons folgen Sie den nachstehenden Schritten:
 2. Drehen Sie den Encoder Knopf, bis im Display _BEEP_ angezeigt wird.
 3. Drücken Sie ENTER zum Aufrufen der Funktion.
 4. Drehen Sie erneut den Encoder Knopf zur Aktivierung/Deaktivierung des Tastentons. Ihnen stehen 2 Einstellungen zur Verfügung: _ON_ (aktiviert) oder
-_OFF_ (deaktiviert).
+*OFF_ (deaktiviert).
 5. Bestätigen Sie Ihre Einstellung mit ENT
 
 ### Tastensperre (KEYBO)
@@ -382,7 +382,7 @@ und 270 Sekunden ein.
 
 ### Suchlauf-Einstellungen
 
-Drücken Sie MENU und drehen Sie den Encoder Knopf bis im Display _SCANS_
+Drücken Sie MENU und drehen Sie den Encoder Knopf bis im Display _SCANS*
 angezeigt wird. Drücken Sie ENTER und drehen Sie erneut den Encoder Knopf zur
 Auswahl des Suchlauf-Types ( _TO/CO/SE_ ).
 Bestätigen Sie Ihre Einstellung mit ENT
@@ -412,7 +412,7 @@ Zur Aktivierung der Sprachführung folgen Sie nachstehenden Schritten:
 3. Drücken Sie ENT zum Aufrufen der Funktion.
 4. Drehen Sie erneut den Encoder Knopf zur Aktivierung/Deaktivierung der
 Funktion. Ihnen stehen 2 Einstellungen zur Verfügung: _ON_ (Aktivierung) oder
-_OFF_ (Deaktivierung).
+*OFF_ (Deaktivierung).
 5. Bestätigen Sie Ihre Einstellung mit ENT
 
 ### C-CDC / R-CDC / T-CDC
@@ -491,9 +491,9 @@ Es kann ein Name anstatt der Kanalnummer eingestellt werden, um im Display angez
 | Nebenwellen-Aussendungen | Innerhalb der europäischen Bestimmungen |
 | Blockiert | Innerhalb der europäischen Bestimmungen |
 | SAR | 0,982W/Kg |
-_WARNUNG: Das Netzteil muss von der Steckdose abgezogen werden, um den Tran-_
-_sceiver vollständig vom Stromnetz zu trennen. Das Ladegerät muss sich in der Nähe des_
-_Gerätes befinden und muss jederzeit frei zugänglich sein._
+_WARNUNG: Das Netzteil muss von der Steckdose abgezogen werden, um den Tran-*
+*sceiver vollständig vom Stromnetz zu trennen. Das Ladegerät muss sich in der Nähe des*
+*Gerätes befinden und muss jederzeit frei zugänglich sein.*
 
 ## Fehlersuche
 
@@ -511,29 +511,34 @@ _Gerätes befinden und muss jederzeit frei zugänglich sein._
 Prodotto o importato da
 MIDLAND EUROPE S.r.l.
 Via R.Sevardi 7 - 42124 Reggio Emilia - Italia
-<www.midlandeurope.com>
+<www.midlandeurope.com>  
 Prima dell’uso leggere attentamente le istruzioni.
-Produced or imported by:
+
+**Produced or imported by:**  
 MIDLAND EUROPE S.r.l.
 Via R.Sevardi 7 - 42124 Reggio Emilia - Italy
 <www.midlandeurope.com>
-Imported by:
+
+**Imported by:**  
 ALAN-NEVADA UK
 Unit 1 Fitzherbert Spur Farlington Portsmouth Hants P06 1TT - United Kingdom
-<www.nevada.co.uk>
+<www.nevada.co.uk>  
 Read the instructions carefully before installation and use.
-Vertrieb durch:
+
+**Vertrieb durch:**  
 ALAN ELECTRONICS GmbH
 Daimlerstraße 1g - D-63303 Dreieich - Deutschland
-<www.alan-electronics.de>
+<www.alan-electronics.de>  
 Vor Benutzung Bedienungsanleitung beachten.
-Importado por:
+
+**Importado por:**  
 MIDLAND IBERIA, SA.
 C/Cobalt, 48 - 08940 Cornellà De Llobregat, Barcelona - España
-<www.midland.es>
+<www.midland.es>  
 Antes de utilizar, lea atentamente el manual de uso.
-Importé par:
+
+**Importé par:**  
 ALAN FRANCE S.A.R.L.
 10 impasse Phytagore, 13127 Vitrolles - France
-<www.alan-midland.fr>
+<www.alan-midland.fr>  
 Avant l’utilisation, lire les instructions.
