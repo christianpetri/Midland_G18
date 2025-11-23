@@ -105,58 +105,17 @@ the optional PRG-G15 software. These are **not** factory defaults.
 
 ### Advanced Feature Configuration
 
-#### Busy Channel Lockout (BCL)
+Configure these features via PRG-G15 software based on your operational needs.
+**For detailed feature explanations**, see [PRG-G15 Programming Guide](PROGRAMMING.md#programmable-features-reference).
 
-* **Setting**: Enable via PRG-G15 software
-  * **Purpose**: Prevents transmission on occupied channels
-  * **Benefit**: Avoids interference with existing communications
-  * **Etiquette**: Promotes proper radio communication protocols
-  * **Note**: Requires PRG-G15 programming software to configure
-
-#### VOX (Voice Operated Exchange)
-
-* **Setting**: Disabled by default
-  * **Reason**: Not suitable for noisy tactical environments
-  * **Alternative**: Manual PTT for better control
-  * **Optional**: Can be enabled for hands-free operation when appropriate
-  * **Sensitivity**: Adjustable if enabled
-
-#### Scrambler/Privacy
-
-* **Setting**: Optional (based on use case)
-  * **Type**: Digital voice scrambling
-  * **Usage**: When privacy is required
-  * **Compatibility**: All radios must use same scrambler setting
-  * **Note**: Not encryption-grade security
-
-#### CTCSS/DCS Tones
-
-* **Setting**: Channel-dependent
-  * **Purpose**: Reduces interference from other users
-  * **Recommendation**: Use on busy channels
-  * **Compatibility**: Coordinate with team members
-  * **Standard Tones**: Use common CTCSS frequencies
-
-#### Additional Programmable Features (Optional)
-
-The following features can be configured via PRG-G15 software for enhanced customization:
-
-* **ROGER BEEP**: End-of-transmission tone confirmation
-  * **Use Case**: Group coordination, confirms PTT release
-  * **Note**: May not be compatible with non-Midland radios in mixed groups
-* **VOICE Prompts**: Spoken channel/setting announcements
-  * **Use Case**: Accessibility, hands-free confirmation
-  * **Note**: Disable for stealth operations
-* **Compander**: Audio compression for clearer communications
-  * **Use Case**: Noisy environments, improved voice clarity
-  * **Note**: Both radios must have compander enabled for compatibility
-* **RRM Channel**: Restricted Radio Mode (Italy-specific regulatory channel)
-  * **Use Case**: Compliance with Italian PMR446 regulations
-
-**Important for Mixed Radio Groups**: If your team uses different radio brands
-(Baofeng, Motorola, etc.), only use standard PMR446 features (frequencies,
-CTCSS/DCS codes) for compatibility. Advanced features like ROGER BEEP,
-Compander, and Scrambler may not work across different manufacturers.
+* **BCL (Busy Channel Lockout)**: Enable to prevent transmitting over active communications
+* **VOX (Voice Operated Exchange)**: Disabled by default; enable for hands-free operation in quiet environments
+* **Scrambler**: Enable for basic voice privacy (coordinate settings with team)
+* **CTCSS/DCS Tones**: Configure per channel to reduce interference
+* **ROGER BEEP**: Enable for end-of-transmission confirmation (may not work with non-Midland radios)
+* **VOICE Prompts**: Enable for accessibility; disable for stealth operations
+* **Compander**: Enable for clearer audio in noisy environments (requires both radios to have it enabled)
+* **RRM Channel**: Italy-specific regulatory channel (configure if required)
 
 ### NC Variant Optional Features (G18-PRO NC Only)
 

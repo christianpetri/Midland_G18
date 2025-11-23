@@ -210,80 +210,175 @@ After programming, thoroughly test all configurations:
 
 ## Programmable Features Reference
 
-### Scan Modes
+This section provides detailed explanations of all features configurable via PRG-G15 software or radio menu. For configuration recommendations, see the [Hybrid Profile Configuration Guide](HYBRID_PROFILE.md) and [Tactical Operations Guide](TACTICAL_OPERATIONS.md).
 
-**Three scan behavior types accessible via Menu > SCANS**:
+### BCL (Busy Channel Lockout)
 
-* **TO (Time-Operated)** - 5-second pause on signal, then resume scanning
-* **CO (Carrier-Operated)** - Stop on signal, resume when signal ends
-* **SE (Search)** - Exit scan mode immediately on first signal
-
-**Channel Exclusion**: Press ENT 4 seconds on any channel to toggle exclude/include
-status.
-
-### CTCSS/DCS Codes
-
-* **CTCSS Tones**: 50 standard tones (67.0 Hz - 254.1 Hz)
-* **DCS Codes**: 105 digital codes
-* **Purpose**: Filter out unwanted transmissions, create "private" channels
-* **Compatibility**: Coordinate codes with team members
-* **Note**: Does not encrypt communications
-
-### Time-Out Timer (TOT)
-
-* **Range**: 30-270 seconds (or disabled)
-* **Recommended**: 180 seconds (3 minutes) for general use
-* **Purpose**: Prevents accidental extended transmissions
-* **Benefit**: Conserves battery, promotes channel sharing
+* **Purpose**: Prevents transmission on channels already in use by other operators
+* **How it Works**: Radio monitors channel before transmitting; blocks PTT if channel is busy
+* **Benefits**:
+  * Prevents interference with existing communications
+  * Promotes radio etiquette and professional operation
+  * Reduces risk of talking over emergency traffic
+* **Use Cases**: Busy PMR446 channels in populated areas, tactical operations requiring coordination discipline, mixed-group operations with multiple teams
+* **Configuration**: PRG-G15 > Channel Settings > BCL > Enable
+* **Note**: Does not prevent others from transmitting over you
 
 ### VOX (Voice Operated Exchange)
 
-* **Sensitivity Levels**: 1-9 (or disabled)
-* **Recommended**: Disabled for tactical operations
-* **Use Case**: Hands-free operation in quiet environments
-* **Limitation**: Not suitable for noisy environments
+* **Purpose**: Enables hands-free operation by automatically transmitting when it detects your voice
+* **How it Works**: Microphone monitors audio input; PTT activates when sound exceeds sensitivity threshold
+* **Settings**:
+  * Sensitivity Levels: 1 (low) to 9 (high), or disabled
+  * Delay: Configurable hold time after speech stops
+* **Advantages**: Hands-free operation for climbing, cycling, skiing; useful when gloves make PTT difficult; allows operation while hands are occupied
+* **Limitations**: Not suitable for noisy environments (wind, vehicles, crowds); may trigger on background noise; battery drain higher than manual PTT; less precise than manual PTT control
+* **Recommendations**:
+  * Disable for tactical/security operations (prevents accidental transmission)
+  * Use sensitivity level 3-5 for quiet environments
+  * Test thoroughly before relying on VOX in critical situations
+* **Configuration**: PRG-G15 > VOX Settings > Enable + Sensitivity Level OR Front Panel Menu > VOX
 
-### ROGER BEEP
+### Scrambler (Voice Privacy)
 
-* **Function**: End-of-transmission tone confirmation
-* **Use Case**: Group coordination, confirms PTT release
-* **Compatibility**: May not work with non-Midland radios
-* **Note**: Can be annoying in some situations
+* **Purpose**: Basic voice privacy through digital scrambling
+* **How it Works**: Encodes audio signal; requires matching scrambler code to decode
+* **Security Level**: **Not encryption-grade** - provides privacy against casual listeners only
+* **Compatibility**: All radios in group must use identical scrambler settings; may not work across different radio brands; Midland proprietary implementation
+* **Use Cases**: Privacy from casual eavesdroppers, deterring interference from neighboring groups - **NOT for sensitive/classified communications**
+* **Limitations**: Can be defeated by scanner enthusiasts; may reduce audio quality; battery impact moderate
+* **Configuration**: PRG-G15 > Channel Settings > Scrambler > Enable + Code Selection
 
-### VOICE Prompts
+### CTCSS/DCS Tones (Selective Calling)
 
-* **Function**: Spoken announcements for channel, settings
-* **Use Case**: Accessibility, hands-free confirmation
-* **Limitation**: Disclose radio activity (not stealth-friendly)
-* **Recommendation**: Disable for tactical operations
+* **Purpose**: Filters out unwanted transmissions from other users on the same frequency
+* **How it Works**:
+  * CTCSS: Continuous Tone-Coded Squelch System (50 analog tones, 67.0 Hz - 254.1 Hz)
+  * DCS: Digital-Coded Squelch (105 digital codes)
+  * Radio only unmutes when receiving matching code
+* **Benefits**: Reduces interference on busy channels; creates "virtual private channels" on shared frequencies; standard feature compatible across all PMR446 radios
+* **Limitations**:
+  * Does **not** provide privacy (anyone can listen without tone)
+  * Does **not** prevent others from transmitting on your channel
+  * Purely a receive filter
+* **Common CTCSS Frequencies**: 67.0 Hz, 71.9 Hz, 74.4 Hz, 77.0 Hz, 79.7 Hz, 82.5 Hz, 85.4 Hz, 88.5 Hz, 91.5 Hz, 94.8 Hz
+* **Recommendations**: Use on channels 1-8 (PMR446 standard) in populated areas; coordinate codes with team members; use common tones for cross-brand compatibility
+* **Configuration**: PRG-G15 > Channel Settings > CTCSS/DCS OR Front Panel Menu > C-CDC/R-CDC/T-CDC
 
-### Compander
+### ROGER BEEP (End-of-Transmission Tone)
 
-* **Function**: Audio compression/expansion for clearer communications
-* **Benefit**: Reduces background noise, enhances voice clarity
-* **Compatibility**: Both transmit and receive radios should match
-* **Note**: May not work with non-Midland radios
+* **Purpose**: Audible confirmation tone when PTT is released
+* **How it Works**: Brief tone transmitted at end of each transmission
+* **Benefits**: Confirms PTT release (useful for beginners); indicates to listeners that transmission has ended; helps with group coordination ("over" signal)
+* **Limitations**: May not be recognized or appreciated by non-Midland radios; can be annoying in mixed-brand groups; adds slight time to each transmission
+* **Use Cases**: Training new radio operators, group coordination without voice "over" confirmations, accessibility for hearing-impaired operators
+* **Recommendations**: **Disable for mixed-brand groups** (may cause confusion); enable for Midland-only teams if desired; test with team before deployment
+* **Configuration**: PRG-G15 > Roger Beep > Enable/Disable
+
+### VOICE Prompts (Spoken Announcements)
+
+* **Purpose**: Spoken channel numbers and settings confirmations
+* **How it Works**: Radio announces channel changes, mode switches, and settings via speaker
+* **Languages**: Multiple language options available (varies by region)
+* **Benefits**: Accessibility for visually impaired users; hands-free confirmation without looking at display; training aid for new operators
+* **Limitations**: Breaks stealth operations (audible announcements); battery drain increases; may annoy team members in quiet environments
+* **Recommendations**: **Disable for tactical/stealth operations**; enable for training or recreational use; useful for nighttime operations when display is hard to read
+* **Configuration**: PRG-G15 > Voice Prompt > Enable/Disable + Language Selection
+
+### Compander (Audio Compression)
+
+* **Purpose**: Compresses audio on transmit, expands on receive for clearer communications
+* **How it Works**: Reduces dynamic range to improve signal-to-noise ratio
+* **Benefits**: Clearer voice in noisy environments; better audio intelligibility; helps overcome weak signal conditions
+* **Limitations**: **Both transmit and receive radios must have compander enabled**; may not work with non-Midland radios; can introduce audio artifacts if only one radio uses it
+* **Use Cases**: Noisy environments (wind, traffic, crowds), long-range communications, Midland-only radio groups
+* **Recommendations**: **Disable for mixed-brand groups** (compatibility issues); enable for Midland-only teams in challenging audio conditions; test before relying on in critical situations
+* **Configuration**: PRG-G15 > Compander > Enable/Disable
 
 ### Emergency Button
 
-* **Activation**: 3-second hold (prevents accidental triggering)
-* **Function**: 30-second alarm tone + 30-second open transmission
-* **Configuration**: Must be enabled via PRG-G15
-* **Test Regularly**: Verify functionality before deployments
+* **Purpose**: Distress signal transmission for emergency situations
+* **How it Works**:
+  * 3-second hold activates (prevents accidental triggering)
+  * 30-second alarm tone transmission
+  * 30-second open microphone transmission
+  * Repeats until cancelled
+* **Configuration Requirements**: Must be enabled via PRG-G15 (disabled by default)
+* **Use Cases**: Injury or medical emergency, lost/separated from group, equipment failure in hazardous location, security threat
+* **Best Practices**:
+  * **Test regularly** to verify functionality
+  * Coordinate emergency procedures with team
+  * Ensure all team members know activation method
+  * Have backup communication plan (whistle, mirror, flares)
+* **Limitations**: Requires other radios to be monitoring your channel; battery drain high during extended activation; may not reach distant team members depending on terrain
+* **Configuration**: PRG-G15 > Emergency Alarm > Enable + Test
 
-### FM Radio
+### FM Radio (Broadcast Receiver)
 
-* **Function**: FM broadcast receiver mode
-* **Requirement**: Must be enabled via PRG-G15
-* **Use Case**: Entertainment during downtime, emergency news monitoring
-* **Note**: Drains battery faster than PMR446 receive mode
+* **Purpose**: FM broadcast reception for entertainment and emergency news monitoring
+* **How it Works**: Radio switches from PMR446 transceiver to FM broadcast receiver mode
+* **Frequency Range**: Typically 87.5-108 MHz (standard FM broadcast band)
+* **Configuration Requirements**: Must be enabled via PRG-G15 (may be disabled by default)
+* **Use Cases**: Entertainment during downtime, emergency news/weather updates, situational awareness during long deployments
+* **Limitations**:
+  * **Cannot receive PMR446 transmissions while in FM mode**
+  * Battery drain significantly higher than PMR446 receive
+  * Reception quality depends on antenna and location
+  * Headphone recommended for extended listening
+* **Recommendations**: Enable for recreational/camping use; use sparingly to conserve battery; always return to PMR446 mode when expecting communications
+* **Button Assignment**: Typically PF3 long press toggles FM Radio mode
+* **Configuration**: PRG-G15 > FM Radio > Enable/Disable
 
-### Busy Channel Lockout (BCL)
+### RRM Channel (Italy-Specific)
 
-* **Function**: Prevents transmission on occupied channels
-* **Benefit**: Avoids interference, promotes radio etiquette
-* **Configuration**: Enable via PRG-G15
-* **Use Case**: Tactical operations, busy channels
+* **Purpose**: Restricted Radio Mode channel for Italian PMR446 regulatory compliance
+* **Regulatory Context**: Italy has specific PMR446 channel restrictions
+* **Configuration**: Channel designation for RRM compliance
+* **Use Cases**: **Italy only** - required for legal PMR446 operation
+* **Note**: Users outside Italy do not need to configure this feature
+* **Configuration**: PRG-G15 > RRM Channel > Select Channel (if applicable)
+
+### TOT (Time-Out Timer)
+
+* **Purpose**: Limits maximum continuous transmission time to prevent channel hogging
+* **Settings**: 30-270 seconds (or disabled)
+* **How it Works**: Automatically cuts transmission after timeout period; requires PTT release to reset
+* **Benefits**: Enforces radio discipline; prevents accidental stuck PTT (button jammed open); conserves battery; ensures fair channel access for all users
+* **Recommendations**: Set to 60-120 seconds for tactical operations; set to 180 seconds for recreational use; shorter timeout for busy channels
+* **Configuration**: Front Panel Menu > TOT (30-270 sec) OR PRG-G15 > TOT Settings
+* **Note**: Can be configured via radio menu without PRG-G15 software
+
+### TX Power (Transmission Power)
+
+* **Settings**: Low / High (front panel toggle)
+* **Actual Output**: **Both modes = 500mW ERP** (regulatory compliance)
+* **Regulatory Note**: PMR446 regulations lock maximum output to 500mW
+* **Official Manual Quote**: "By default, both low and high power are set at 500mW"
+* **Why Toggle Exists**: Display indicator only; no actual power difference
+* **Recommendation**: Leave on either setting (no performance impact)
+* **Configuration**: Front Panel Menu > POW (toggle Low/High)
+* **Battery Impact**: None (identical power output)
+* **Range Impact**: None (identical transmission power)
+
+### Scan Modes
+
+* **Purpose**: Automatically monitor multiple channels for activity
+* **Scan Types**:
+  * **TO (Time-Operated)**: 5-second pause on signal, then resume scanning
+  * **CO (Carrier-Operated)**: Stop on signal, resume when signal ends
+  * **SE (Search)**: Exit scan mode immediately on first signal
+  * **Dual Watch (NC variant only)**: Simultaneously monitors two channels (requires dual receiver hardware)
+* **How it Works**: Radio pauses on active channel, resumes scanning after transmission ends
+* **Configuration**:
+  * Scan Type: Front Panel Menu > SCANS > Select TO/CO/SE
+  * Scan List: PRG-G15 > Scan Settings > Select Channels
+  * Priority Channel: PRG-G15 > Scan Settings > Priority Channel
+  * Channel Exclusion: Press ENT 4 seconds on any channel to toggle exclude/include status
+* **Button Assignment**: Typically PF4 long press activates scan
+* **Use Cases**: Monitoring multiple team channels, searching for active communications, emergency monitoring
+* **Limitations**: Battery drain higher than single-channel monitoring; may miss brief transmissions during channel switching; Dual Watch requires NC variant hardware
+* **Recommendations**: Limit scan list to relevant channels (reduces battery drain); use Priority Scan for primary team channel + monitoring others
+* **Configuration**: Front Panel Menu > SCANS OR PRG-G15 > Scan Settings
 
 ## Mixed Radio Group Considerations
 

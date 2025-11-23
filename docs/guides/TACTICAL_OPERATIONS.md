@@ -63,13 +63,8 @@ tactical team operations using the Midland G18 PRO PMR446 radio.
 
 ### Privacy Features
 
-* **Scrambler**: Enable for basic voice privacy (not encryption-grade)
-  * **Note**: Not military-grade encryption
-  * **Compatibility**: All team radios must use same scrambler setting
-  * **Limitation**: Can be defeated by determined listeners
-* **CTCSS/DCS Codes**: Coordinate team-specific privacy codes
-  * **Purpose**: Reduce interference, filter out other users
-  * **Security**: Does not encrypt communications
+* **Scrambler**: Enable for basic voice privacy (not encryption-grade) - see [PROGRAMMING.md](PROGRAMMING.md#scrambler-voice-privacy) for details
+* **CTCSS/DCS Codes**: Coordinate team-specific privacy codes - see [PROGRAMMING.md](PROGRAMMING.md#ctcssdcs-tones-selective-calling)
 * **Channel Discipline**: Monitor before transmitting (use BCL if programmed)
 
 ### Operational Security
@@ -136,107 +131,49 @@ standard G18-PRO radios.
 
 ## Programmable Function (PF) Button Configuration
 
-**Hardware Note**: The G18 PRO has **Function key 1 (PF3)** and **Function key 2
-(PF4)** only. There are no PF1 or PF2 buttons.
+### Button Functions for Tactical Use
 
-### Default PF Button Assignments (Per Manual)
+**Factory Default Assignments** (work well for most tactical operations):
 
-1. **Function Key 1 (PF3)**:
-    * **Short Press**: Monitor function
-    * **Description**: Opens squelch to hear weak signals and check channel
-        activity before transmitting
-    * **Tactical Use**: Situational awareness, check channel before transmission
+* **PF3 Short Press**: Monitor - Check channel before transmitting
+* **PF4 Long Press (3 sec)**: Scan - Find active communications
+* **Emergency Button (3 sec hold)**: Distress alarm (must enable via PRG-G15)
 
-2. **Function Key 2 (PF4)**:
-    * **Long Press (3 seconds)**: SCAN function
-    * **Description**: Scans through all programmed channels to detect active
-        communications
-    * **Tactical Use**: Detect other team communications, find active channels
+**For complete button programming options and detailed configuration**, see
+[Hybrid Profile Configuration](HYBRID_PROFILE.md).
 
-3. **Emergency Button** (separate physical button):
-    * **Long Press (3 seconds)**: Emergency alarm
-    * **Description**: Sends 30-second alarm tone, then 30 seconds of open
-        transmission for status update
-    * **Requirement**: Must be enabled via PRG-G15 programming software
-    * **Tactical Use**: Distress signaling, emergency notification
+### Recommended Tactical Button Setup
 
-### Programmable Options (via PRG-G15 software)
+For standard tactical operations, factory defaults are optimal:
 
-The PF3 and PF4 buttons can be reprogrammed with the optional PRG-G15
-programming software to customize functionality for specific operational needs.
-
-#### Customizable PF Button Options
-
-The following functions can be assigned to PF3/PF4 buttons via PRG-G15 software:
-
-* **Monitor**: Listen to the current channel without squelch (default PF3 short)
-* **Scan**: Cycle through all programmed channels (default PF4 long)
-* **Emergency Alarm**: Send distress signal (separate emergency button)
-* **FM Radio**: Toggle FM broadcast receiver mode
-* **High/Low Power**: Toggle power mode (note: both output 500mW ERP)
-
-**Note**: Specific programmable options depend on PRG-G15 software capabilities.
-Consult programming software manual for complete list of assignable functions.
-
-### Recommended Tactical Configuration
-
-**For Most Tactical Operations**, the factory defaults work well:
-
-* **PF3 Short Press**: Monitor (check channel activity)
-* **PF4 Long Press**: Scan (find active communications)
-* **Emergency Button**: Enable via PRG-G15 for distress signaling
-
-**Custom Options** (requires PRG-G15 programming):
-
-* **PF3 Long Press**: Assign to frequently-used function (FM Radio, VOX toggle, etc.)
-* **PF4 Short Press**: Leave unassigned or assign to quick channel switch
+* Use **Monitor (PF3)** to check channel before transmitting
+* Use **Scan (PF4)** to locate active team communications  
+* Enable **Emergency Button** via PRG-G15 for distress signaling
 
 ## Advanced Tactical Features
 
 ### Busy Channel Lockout (BCL)
 
-* **Purpose**: Prevents transmission on occupied channels
-* **Benefit**: Avoids interference with existing communications
-* **Configuration**: Enable via PRG-G15 software
-* **Tactical Advantage**: Prevents accidentally stepping on critical transmissions
+* **Tactical Use**: Prevents accidentally stepping on critical transmissions
+* **Configuration**: Enable via PRG-G15 - see [PROGRAMMING.md](PROGRAMMING.md#bcl-busy-channel-lockout)
 
 ### Voice Operated Exchange (VOX)
 
-* **Default**: Disabled for tactical operations
-* **Reason**: Not suitable for noisy tactical environments
-* **Alternative**: Manual PTT for better control
-* **Optional**: Can be enabled for hands-free operation in quiet environments
+* **Tactical Recommendation**: Disable for noisy tactical environments
+* **Manual PTT Preferred**: Better control for tactical communications
+* **Details**: See [PROGRAMMING.md](PROGRAMMING.md#vox-voice-operated-exchange)
 
 ### Channel Scanning Modes
 
-**Scan Mode Settings**: Three different scan behavior options available via Menu >
-SCANS:
+**Tactical Scan Recommendations**:
 
-* **TO (Time-Operated Scan)** - Pauses 5 seconds when signal detected, then
-  resumes scanning even if signal continues. Best for: Monitoring channels while
-  tracking activity.
-* **CO (Carrier-Operated Scan)** - Stops on active channel, resumes when signal
-  ends. Best for: Staying on active communications, monitoring team traffic.
-* **SE (Search Scan)** - Stops completely and exits scan mode on first signal
-  detected. Best for: Finding active channels, emergency response mode.
+* **TO (Time-Operated)**: Best for monitoring channels while tracking activity
+* **CO (Carrier-Operated)**: Best for staying on active communications, monitoring team traffic
+* **SE (Search)**: Best for finding active channels, emergency response mode
 
-**Exclusion**: Press ENT for 4 seconds on any channel to exclude/include it from
-scan list.
+**Detailed scan configuration**: See [PROGRAMMING.md](PROGRAMMING.md#scan-modes)
 
-### Time-Out Timer (TOT)
-
-* **Recommended Setting**: 3 minutes (180 seconds)
-* **Purpose**: Prevents accidental extended transmissions
-* **Benefit**: Conserves battery, promotes channel sharing
-* **Configuration**: Adjustable via Menu > TOT (30-270 seconds)
-
-### Emergency Alarm
-
-* **Activation**: 3-second hold on emergency button
-* **Signal**: 30-second distinctive alarm tone
-* **Follow-up**: 30-second open transmission window
-* **Configuration**: Must be enabled via PRG-G15 software
-* **Test Regularly**: Verify functionality before each mission
+**Quick Tip**: Press ENT for 4 seconds on any channel to exclude/include from scan list.
 
 ## Mission Planning Considerations
 
