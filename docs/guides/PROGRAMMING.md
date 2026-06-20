@@ -151,6 +151,35 @@ These features require PRG-G15 programming software:
   * Options: Power toggle (not recommended), Channel switch, or leave unassigned
 * [ ] **Emergency Button**: Enable via PRG-G15 (3-second hold activation)
 
+**FM Memory Workflow (Edit in PRG-G15, Recall on Radio)**:
+
+1. In **PRG-G15**, open **Edit -> Radio**.
+2. In **Radio Memory**, set frequencies for memory slots **CH1-CH6**.
+3. Set FM **Band** and **Step**, then click **OK**.
+4. **Switzerland recommended setup**: **Band 87.5-108.0 MHz**, **Step 100 kHz**.
+5. Write (program) settings to the radio.
+
+On the radio, press **VFO/MR** to enter FM memory recall, then select one of
+the stored entries. Channel-to-key mapping:
+
+* **CH1 -> FUN**
+* **CH2 -> Function key 1 (PF3)**
+* **CH3 -> Function key 2 (PF4)**
+* **CH4 -> MENU**
+* **CH5 -> ENT**
+* **CH6 -> Emergency button**
+
+Channel definitions cannot be edited from the handset.
+
+**FM Manual Tuning (Frequency Mode)**:
+
+When tuning by frequency (not **CH1-CH6** memory recall):
+
+* **Function key 1 (PF3)**: Scan up (+) through FM frequencies
+* **Function key 2 (PF4)**: Scan down (-) through FM frequencies
+* **Encoder knob (channel knob)**: Manually tune/select FM frequency
+* **Exit FM mode**: Long press **VFO/MR**
+
 **Note**: Power toggle is not recommended since the G18-PRO defaults both Low and
 High modes to 500mW ERP output (see manual: POW section). The toggle only changes
 the display indicator without affecting actual transmission power.
