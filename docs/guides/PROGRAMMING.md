@@ -114,7 +114,12 @@ configuration instructions.
 2. **Install USB Drivers**: Follow software installer prompts
 3. **Connect Cable**: Attach programming cable to radio and USB port
 4. **Power On Radio**: Turn on radio before launching software
-5. **Launch PRG-G15**: Open software and detect radio
+5. **Launch PRG-G15**: Open software and configure the COM port:
+   * In PRG-G15, set **Communication Port** to the correct **COM port** (COM1-COM20)
+   * To find the correct port: open Windows **Device Manager** -> **Ports (COM & LPT)**
+   * Look for a USB-to-serial adapter entry, e.g. **USB-SERIAL CH340 (COM3)**
+   * Select that COM port number in PRG-G15, then click **Read** to detect
+     and load the current radio settings
 
 ### Basic Configuration (Front Panel Menu)
 
