@@ -33,13 +33,16 @@ manual or support hotline included with kit.
 * **Official Download**:
   [PRG-G15 at Midland Support](https://support.midlandeurope.com/en_150/products/g18-pro)
 * **Included With**: Programming cable kit (CD-ROM/USB)
-* **System Requirements**: Not publicly documented (likely Windows 7 or newer
-  with USB support)
+* **System Requirements**: Not publicly documented by Midland; verify operating
+  system compatibility on your target system before deployment
 
 ## PRG-G15 Software Capabilities
 
 The PRG-G15 programming software allows you to customize the following radio
 features:
+
+All features listed in this guide are explained in depth in
+[Programmable Features Reference](#programmable-features-reference) below.
 
 ### Radio Functions
 
@@ -156,7 +159,8 @@ These features require PRG-G15 programming software:
 1. In **PRG-G15**, open **Edit -> Radio**.
 2. In **Radio Memory**, set frequencies for memory slots **CH1-CH6**.
 3. Set FM **Band** and **Step**, then click **OK**.
-4. **Switzerland recommended setup**: **Band 87.5-108.0 MHz**, **Step 100 kHz**.
+4. **Switzerland recommended setup**: **Band 87.5-108.0 MHz**,
+   **Step 100 kHz** (verify with local station spacing on-device).
 5. Write (program) settings to the radio.
 
 On the radio, press **VFO/MR** to enter FM memory recall, then select one of
@@ -239,7 +243,11 @@ After programming, thoroughly test all configurations:
 
 ## Programmable Features Reference
 
-This section provides detailed explanations of all features configurable via PRG-G15 software or radio menu. For configuration recommendations, see the [Hybrid Profile Configuration Guide](HYBRID_PROFILE.md) and [Tactical Operations Guide](TACTICAL_OPERATIONS.md).
+This is the complete, in-depth reference for all features listed above that are
+configurable via PRG-G15 software or radio menu.
+For configuration recommendations, see the
+[Hybrid Profile Configuration Guide](HYBRID_PROFILE.md) and
+[Tactical Operations Guide](TACTICAL_OPERATIONS.md).
 
 ### BCL (Busy Channel Lockout)
 
@@ -345,18 +353,23 @@ This section provides detailed explanations of all features configurable via PRG
 ### FM Radio (Broadcast Receiver)
 
 * **Purpose**: FM broadcast reception for entertainment and emergency news monitoring
-* **How it Works**: Radio switches from PMR446 transceiver to FM broadcast receiver mode
+* **How it Works**: FM broadcast receiver is enabled while PMR446 RX/TX remains
+  available; FM audio auto-mutes during radio traffic and resumes afterward
 * **Frequency Range**: Typically 87.5-108 MHz (standard FM broadcast band)
 * **Configuration Requirements**: Must be enabled via PRG-G15 (may be disabled by default)
 * **Use Cases**: Entertainment during downtime, emergency news/weather updates, situational awareness during long deployments
 * **Limitations**:
-  * **Cannot receive PMR446 transmissions while in FM mode**
+  * **PMR446 RX/TX remains available**; FM audio auto-mutes during radio traffic and resumes afterward
   * Battery drain significantly higher than PMR446 receive
   * Reception quality depends on antenna and location
   * Headphone recommended for extended listening
 * **Recommendations**: Enable for recreational/camping use; use sparingly to conserve battery; always return to PMR446 mode when expecting communications
 * **Button Assignment**: Typically PF3 long press toggles FM Radio mode
 * **Configuration**: PRG-G15 > FM Radio > Enable/Disable
+* **Complete Step-by-Step FM Instructions**: See
+  [FM Memory Workflow (Edit in PRG-G15, Recall on Radio)](#fm-memory-workflow-edit-in-prg-g15-recall-on-radio)
+  for the full procedure, including CH1-CH6 mapping, scan/tuning controls,
+  and FM mode exit action
 
 ### RRM Channel (Italy-Specific)
 
@@ -551,7 +564,6 @@ later to access NC features (Dual Watch, Noise Cancelling TX, Only-CH Mode).
 * **Programming Software**: [PRG-G15 Download](https://support.midlandeurope.com/en_150/products/g18-pro)
 * **Programming Cable Kit**: [Official Midland Store](https://www.midlandeurope.com/en_150/products/prg-g15)
 * **Official Support**: [G18 PRO Support Page](https://support.midlandeurope.com/en_150/products/g18-pro)
-* **Community Forums**: User experiences and programming tips
 
 ---
 
