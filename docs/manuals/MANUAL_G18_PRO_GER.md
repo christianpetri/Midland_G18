@@ -1,5 +1,7 @@
 # Midland G18 PRO Bedienungsanleitung
 
+![PMR446](https://img.shields.io/badge/PMR446-Offizielle%20Anleitung-blue?style=flat-square) ![IP67](https://img.shields.io/badge/IP67-Zertifiziert-green?style=flat-square)
+
 > **⚠️ INOFFIZIELLE MARKDOWN-VERSION**
 >
 > Dies ist eine **inoffizielle** Markdown-Transkription für Durchsuchbarkeit und Komfort.
@@ -123,50 +125,52 @@ können zu Verformungen der Kunststoffteile führen.
 - Sollte das Funkgerät einen eigenartigen Geruch oder Rauch abgeben, so schalten Sie es aus und entnehmen Sie die Batterien bzw. trennen Sie das Netzteil
 ab.
 
-## Hauptbedienelemente und Aufbau des
+## Hauptbedienelemente und Aufbau des Funkgerätes
 
-6
-5
-14
-E
+![Radio Front View](images/radio_front_view.png)
 
 ### LCD Display
 
-A B K C D
-I H J
-G
-F
+![LCD Display](images/lcd_display.png)
 
-a. Tastatursperre
-b. Gewählter CTCSS-Ton oder DCS-Code
-c. Nummer des Menüs/Kanal
-d. Batteriestatus
-e. Benutzter Kanal
-f. Prioritäts-Scanmodus
-g. VOX-Funktion aktiviert
-h. Niedrige Leistung
-i. Funktionstaste aktiviert
-j. RX- und TX-Signalstärke
-k. Kanal vorübergehend vom Suchlauf ausgenommen
+**Display-Indikatoren:**
 
-### Hauptbedienelemente und Aufbau des Funkgerätes
+| Bezeichnung | Funktion |
+|-----------|----------|
+| a | Tastatursperre |
+| b | Gewählter CTCSS-Ton oder DCS-Code |
+| c | Nummer des Menüs/Kanal |
+| d | Batteriestatus |
+| e | Benutzter Kanal |
+| f | Prioritäts-Scanmodus |
+| g | VOX-Funktion aktiviert |
+| h | Niedrige Leistung |
+| i | Funktionstaste aktiviert |
+| j | RX- und TX-Signalstärke |
+| k | Kanal vorübergehend vom Suchlauf ausgenommen |
 
-1. Antenne
-2. Encoder: Mit Rechts- oder Linksdrehung unterschiedliche Einstellungen
-wählen.
-3. Power/Volume: Zum Einschalten und zum Erhöhen der Lautstärke im Uhrzeigersinn drehen, bzw. zum Ausschalten und zum Verringern der Lautstärke
-gegen den Uhrzeigersinn drehen.
-4. Lautsprecher
-5. Mikrofon
-6. LED-Anzeige: ROT:TX (Senden); GRÜN: RX (Empfang)
-7. Notfall-Taste: (Aktivierung über Programmier-Software möglich)
-8. PTT: Drücken Sie diese Taste zum Senden und lassen Sie sie zum Empfangen
-9. Funktionstaste 1: Drücken: Überwachungsfunktion aktivieren (PF3).
-10. Funktionstaste 2: Langer Druck: SCAN Funktion wird aktiviert (PF4).
-11. Externe Lautsprecher-/Mikrofonbuchse (MotorolaTyp): Anschluss externer
-12. Multi-Funktionstaste: “FUN”: Zweitfunktionen aktivieren.
-13. LCD Display
-14. Multi-Funktionstasten MENU - ENT -VFO/MR
+### Radio
+
+![Radio Controls](images/radio_controls.png)
+
+**Bedienelemente:**
+
+| # | Komponente | Beschreibung |
+|---|-----------|----------|
+| 1 | Antenne | Externe Antenne |
+| 2 | Encoder | Mit Rechts- oder Linksdrehung unterschiedliche Einstellungen wählen |
+| 3 | Power/Lautstärke | Im Uhrzeigersinn drehen zum Einschalten und Erhöhen der Lautstärke; gegen den Uhrzeigersinn zum Ausschalten und Verringern |
+| 4 | Lautsprecher | Audioausgabe |
+| 5 | Mikrofon | Eingebautes Mikrofon zum Senden |
+| 6 | LED-Anzeige | ROT: TX (Senden); GRÜN: RX (Empfang) |
+| 7 | Notfall-Taste | Kann über die Programmiersoftware aktiviert werden |
+| 8 | PTT | Drücken zum Senden, loslassen zum Empfangen |
+| 9 | Funktionstaste 1 (PF3) | Kurzer Druck: Überwachungsfunktion aktivieren |
+| 10 | Funktionstaste 2 (PF4) | Langer Druck: SCAN Funktion wird aktiviert |
+| 11 | Externe Lautsprecher-/Mikrofonbuchse | Motorola-Typ: Anschluss externer Geräte wie Headsets, Mikrofone |
+| 12 | Multi-Funktionstaste "FUN" | Ermöglicht die Aktivierung von Zweitfunktionen |
+| 13 | LCD Display | Informationsanzeige |
+| 14 | Multi-Funktionstasten | MENU - ENT - VFO/MR |
 
 ## Akku aufladen
 
