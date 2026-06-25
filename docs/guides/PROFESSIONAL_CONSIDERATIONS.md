@@ -1,9 +1,9 @@
-# Tactical Team Operations Guide
+# Professional Considerations Guide
 
 This guide provides comprehensive settings, protocols, and procedures for
-tactical team operations using the Midland G18 PRO PMR446 radio.
+professional operations using the Midland G18 PRO PMR446 radio.
 
-## Radio Configuration for Tactical Operations
+## Radio Configuration for Professional Operations
 
 ### Basic Settings
 
@@ -48,7 +48,8 @@ tactical team operations using the Midland G18 PRO PMR446 radio.
 
 ### Audio Accessories
 
-* **Tactical Headsets**: External mic/headset for noisy or tactical environments
+* **Professional Headsets**: External mic/headset for noisy or demanding
+  environments
 * **PTT Accessories**: Remote push-to-talk for hands-free operation
 * **Compatibility**: Verify accessories are compatible with G18 PRO
 
@@ -79,18 +80,18 @@ tactical team operations using the Midland G18 PRO PMR446 radio.
 ### NC Variant Features (G18-PRO NC)
 
 If your radio is the **G18-PRO NC** model, three advanced features enhance
-tactical operations (requires PRG-G15 V1.1.25+):
+professional operations (requires PRG-G15 V1.1.25+):
 
 #### Noise Cancelling TX
 
-**Purpose**: Reduce background noise during transmission for clearer tactical
+**Purpose**: Reduce background noise during transmission for clearer
 communications.
 
 * **Configuration**: Enable per-channel in PRG-G15 software
-* **Tactical Benefit**: Improves voice clarity in high-noise environments
-  (vehicles, helicopters, tactical situations)
+* **Professional Benefit**: Improves voice clarity in high-noise environments
+  (vehicles, helicopters, industrial situations)
 * **Use Case**: Ideal when communicating in noisy deployment areas
-* **Recommended**: Enable on primary tactical channels
+* **Recommended**: Enable on primary operational channels
 
 #### Dual Watch (DW)
 
@@ -98,9 +99,10 @@ communications.
 channel without manual switching.
 
 * **Configuration**: Requires PRG-G15 software (set `D.W.main CH` to primary channel)
-* **Tactical Benefit**: Maintain awareness of both team and command frequencies
+* **Professional Benefit**: Maintain awareness of both team and command
+  frequencies
 * **Example Setup**:
-  * Primary: Team tactical frequency (446.0625 MHz)
+  * Primary: Team primary frequency (446.0625 MHz)
   * Secondary: Command/dispatch frequency (446.1875 MHz)
 * **Operation**: Radio automatically alerts on incoming traffic from either channel
 * **Recommended**: Enable for team leaders coordinating with command
@@ -111,18 +113,19 @@ channel without manual switching.
 changes during critical operations.
 
 * **Configuration**: Enable in PRG-G15 `Optional Menus` → `Only-CH Mode`
-* **Tactical Benefit**: Prevents accidental frequency changes, enforces discipline
+* **Professional Benefit**: Prevents accidental frequency changes, enforces
+  discipline
 * **Security**: Restricts unauthorized channel access (useful for trainee teams)
 * **Hardware Requirement**: Available on all G18-PRO models (standard and NC)
 * **Recommended**: Enable during high-risk operations or team training
 
-### Advanced NC Features for Tactical Teams
+### Advanced NC Features for Professional Teams
 
 **⚠️ NC Variant Only** - The following features require G18-PRO NC hardware:
 
 * **Noise Cancelling TX** - Improves voice clarity in noisy environments (vehicles,
   industrial sites)
-* **Dual Watch (DW)** - Monitor primary tactical channel + secondary command/dispatch
+* **Dual Watch (DW)** - Monitor primary team channel + secondary command/dispatch
   channel simultaneously
 
 Both require the NC variant's dual receiver chipset and cannot be retrofitted to
@@ -133,41 +136,42 @@ standard G18-PRO radios.
 
 ## Programmable Function (PF) Button Configuration
 
-### Button Functions for Tactical Use
+### Button Functions for Professional Use
 
-**Factory Default Assignments** (work well for most tactical operations):
+**Factory Default Assignments** (work well for most professional operations):
 
 * **PF3 Short Press**: Monitor - Check channel before transmitting
 * **PF4 Long Press (3 sec)**: Scan - Find active communications
 * **Emergency Button (3 sec hold)**: Distress alarm (must enable via PRG-G15)
 
 **For complete button programming options and detailed configuration**, see
-[Hybrid Profile Configuration](HYBRID_PROFILE.md).
+[Leisure Profile Configuration](LEISURE_PROFILE.md).
 
-### Recommended Tactical Button Setup
+### Recommended Professional Button Setup
 
-For standard tactical operations, factory defaults are optimal:
+For standard professional operations, factory defaults are optimal:
 
 * Use **Monitor (PF3)** to check channel before transmitting
 * Use **Scan (PF4)** to locate active team communications  
 * Enable **Emergency Button** via PRG-G15 for distress signaling
 
-## Advanced Tactical Features
+## Advanced Professional Features
 
 ### Busy Channel Lockout (BCL)
 
-* **Tactical Use**: Prevents accidentally stepping on critical transmissions
+* **Professional Use**: Prevents accidentally stepping on critical
+  transmissions
 * **Configuration**: Enable via PRG-G15 - see [PROGRAMMING.md](PROGRAMMING.md#bcl-busy-channel-lockout)
 
 ### Voice Operated Exchange (VOX)
 
-* **Tactical Recommendation**: Disable for noisy tactical environments
-* **Manual PTT Preferred**: Better control for tactical communications
+* **Professional Recommendation**: Disable for noisy environments
+* **Manual PTT Preferred**: Better control for professional communications
 * **Details**: See [PROGRAMMING.md](PROGRAMMING.md#vox-voice-operated-exchange)
 
 ### Channel Scanning Modes
 
-**Tactical Scan Recommendations**:
+**Professional Scan Recommendations**:
 
 * **TO (Time-Operated)**: Best for monitoring channels while tracking activity
 * **CO (Carrier-Operated)**: Best for staying on active communications, monitoring team traffic
@@ -263,4 +267,4 @@ For standard tactical operations, factory defaults are optimal:
 
 *For programming instructions, see [PROGRAMMING.md](PROGRAMMING.md)*
 
-*For hybrid profile configuration, see [HYBRID_PROFILE.md](HYBRID_PROFILE.md)*
+*For leisure profile configuration, see [LEISURE_PROFILE.md](LEISURE_PROFILE.md)*

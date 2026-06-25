@@ -1,17 +1,17 @@
-# Hybrid Profile Configuration for Midland G18 Radio
+# Leisure Profile Configuration for Midland G18 Radio
 
-This versatile configuration profile balances tactical and recreational
+This versatile configuration profile balances professional and leisure
 features, making it ideal for users who need reliable communication across
-various scenarios including hiking, tactical operations, emergency preparedness,
-and general use.
+various scenarios including hiking, professional operations, emergency
+preparedness, and general use.
 
 ## Profile Overview
 
-The Hybrid Profile is designed for maximum flexibility while maintaining
+The Leisure Profile is designed for maximum flexibility while maintaining
 optimal performance and battery efficiency. It provides:
 
-* **Tactical readiness** with quick-access emergency features
-* **Recreational functionality** for hiking and outdoor activities
+* **Professional readiness** with quick-access emergency features
+* **Leisure functionality** for hiking and outdoor activities
 * **Optional FM Radio** receiver (requires PRG-G15 software configuration)
 * **Emergency preparedness** with alarm and monitoring capabilities
 * **User-friendly operation** with intuitive button assignments
@@ -49,7 +49,7 @@ the optional PRG-G15 software. These are **not** factory defaults.
 * **PF3 (Function Key 1)**: Short press = Monitor
 * **PF4 (Function Key 2)**: Long press (3 sec) = Scan
 
-**Hybrid Profile Custom Programming** (requires PRG-G15 software):
+**Leisure Profile Custom Programming** (requires PRG-G15 software):
 
 #### PF3 Button: Monitor Function
 
@@ -204,7 +204,7 @@ position, weather conditions, and interference.
 
 ## Quick Setup Summary
 
-For users who want to implement this **hybrid profile**:
+For users who want to implement this **leisure profile**:
 
 **Basic Settings** (accessible via front panel menu):
 

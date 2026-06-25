@@ -17,7 +17,7 @@
 
 Comprehensive documentation for the **Midland G18 PRO PMR446 radio**, including
 user manuals, frequency tables, programming profiles, and best practices for
-tactical and recreational use.
+professional and leisure use.
 
 ## Quick Start
 
@@ -25,7 +25,7 @@ tactical and recreational use.
 
 1. **Read the basics**: [Key Specifications](#key-specifications) below
 2. **Check frequencies**: [PMR446 Frequency Table](#pmr446-frequencies)
-3. **Configure your radio**: [Hybrid Profile Guide](docs/guides/HYBRID_PROFILE.md)
+3. **Configure your radio**: [Leisure Profile Guide](docs/guides/LEISURE_PROFILE.md)
 4. **Program advanced features**: [PRG-G15 Programming Guide](docs/guides/PROGRAMMING.md)
 
 ## Key Specifications
@@ -50,10 +50,10 @@ to create 99 selectable channel options.
 
 ### Core Guides
 
-* **[Hybrid Profile Configuration](docs/guides/HYBRID_PROFILE.md)** - Versatile setup
-  balancing tactical and recreational features
-* **[Tactical Operations Guide](docs/guides/TACTICAL_OPERATIONS.md)** - Settings,
-  protocols, and procedures for tactical team use
+* **[Leisure Profile Configuration](docs/guides/LEISURE_PROFILE.md)** - Versatile
+  setup balancing professional and leisure features
+* **[Professional Considerations Guide](docs/guides/PROFESSIONAL_CONSIDERATIONS.md)** -
+  Settings, protocols, and procedures for professional team use
 * **[PRG-G15 Programming Guide](docs/guides/PROGRAMMING.md)** - Complete programming
   software reference
 
@@ -140,13 +140,13 @@ See [PROGRAMMING.md](docs/guides/PROGRAMMING.md) for complete guide.
 
 ## Use Cases
 
-### Tactical Teams
+### Professional Teams
 
 * Emergency alarm for distress signaling
 * Channel scanning for situational awareness
 * CTCSS/DCS tones for group isolation
 * BCL prevents interfering with critical communications
-* See [Tactical Operations Guide](docs/guides/TACTICAL_OPERATIONS.md)
+* See [Professional Considerations Guide](docs/guides/PROFESSIONAL_CONSIDERATIONS.md)
 
 ### Hiking & Recreation
 
@@ -154,7 +154,7 @@ See [PROGRAMMING.md](docs/guides/PROGRAMMING.md) for complete guide.
 * Scanning to find most active channel
 * Emergency features for safety backup
 * 16-20 hour battery life for extended trips
-* See [Hybrid Profile](docs/guides/HYBRID_PROFILE.md)
+* See [Leisure Profile](docs/guides/LEISURE_PROFILE.md)
 
 ### Emergency Preparedness
 

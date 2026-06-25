@@ -1,4 +1,4 @@
-# G18-PRO NC (New Channel) Variants
+# G18-PRO NC Variants
 
 **Last updated: 2025-11-23**
 
@@ -7,9 +7,11 @@ Cancelling TX and Dual Watch functionality.
 
 ## Overview
 
-The **NC** designation indicates the "New Channel" enhanced variant of the Midland
-G18-PRO radio, introducing advanced features for professional and tactical
-communications.
+The **NC** designation refers to the enhanced hardware variant that adds
+**Noise Cancelling TX** and **Dual Watch** capabilities on supported models.
+
+**Important**: This is separate from the manual phrase **"16 New PMR446
+channels"**, which describes channel set updates, not the NC hardware variant.
 
 | Aspect | Standard G18-PRO | G18-PRO NC |
 |--------|------------------|-----------|
@@ -255,7 +257,7 @@ The NC variant includes 14 test mode columns and 14 test mode rows (vs. 10 colum
 ## Related Documentation
 
 - [Programming Guide](../guides/PROGRAMMING.md) - General PRG-G15 usage
-- [Tactical Operations](../guides/TACTICAL_OPERATIONS.md) - Dual Watch deployment
+- [Professional Considerations](../guides/PROFESSIONAL_CONSIDERATIONS.md) - Dual Watch deployment
 - [Channels Reference](CHANNELS.md) - Frequency and configuration guide
 - [Official Manuals](../manuals/) - Complete technical specifications
 

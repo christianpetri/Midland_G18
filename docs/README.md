@@ -5,9 +5,9 @@ radio. Use the sections below to locate the document you need quickly.
 
 ## Guides (`guides/`)
 
-* `HYBRID_PROFILE.md` – Recommended configuration balancing tactical and
-    recreational use
-* `TACTICAL_OPERATIONS.md` – Procedures, checklists, and security practices for
+* `LEISURE_PROFILE.md` – Recommended configuration balancing professional and
+    leisure use
+* `PROFESSIONAL_CONSIDERATIONS.md` – Procedures, checklists, and security practices for
     team deployments
 * `PROGRAMMING.md` – Step-by-step reference for the PRG-G15 software and
     programmable features

@@ -82,7 +82,7 @@ The **G18-PRO NC** variant adds three advanced features:
 * **Dual Watch (DW)** (hardware feature) - Simultaneously monitor two channels
   with automatic switching on incoming transmissions. Requires dual receiver
   hardware in NC variant.
-* **Only-CH Mode** - Restrict radio to single channel operation for tactical
+* **Only-CH Mode** - Restrict radio to single channel operation for professional
   discipline and security
 
 **Important Hardware Note**: Noise Cancelling TX and Dual Watch are **hardware
@@ -219,7 +219,8 @@ After programming, thoroughly test all configurations:
 
 * **Test all functions** after programming
 * **Verify compliance** with local PMR446 regulations
-* **Check operation** in target environment (tactical, hiking, etc.)
+* **Check operation** in target environment (professional considerations,
+  leisure, etc.)
 * **Confirm emergency features** work correctly
 
 ### Common Programming Issues
@@ -251,8 +252,8 @@ After programming, thoroughly test all configurations:
 This is the complete, in-depth reference for all features listed above that are
 configurable via PRG-G15 software or radio menu.
 For configuration recommendations, see the
-[Hybrid Profile Configuration Guide](HYBRID_PROFILE.md) and
-[Tactical Operations Guide](TACTICAL_OPERATIONS.md).
+[Leisure Profile Configuration Guide](LEISURE_PROFILE.md) and
+[Professional Considerations Guide](PROFESSIONAL_CONSIDERATIONS.md).
 
 ### BCL (Busy Channel Lockout)
 
@@ -262,7 +263,9 @@ For configuration recommendations, see the
   * Prevents interference with existing communications
   * Promotes radio etiquette and professional operation
   * Reduces risk of talking over emergency traffic
-* **Use Cases**: Busy PMR446 channels in populated areas, tactical operations requiring coordination discipline, mixed-group operations with multiple teams
+* **Use Cases**: Busy PMR446 channels in populated areas, professional
+  operations requiring coordination discipline, mixed-group operations with
+  multiple teams
 * **Configuration**: PRG-G15 > Channel Settings > BCL > Enable
 * **Note**: Does not prevent others from transmitting over you
 
@@ -276,7 +279,7 @@ For configuration recommendations, see the
 * **Advantages**: Hands-free operation for climbing, cycling, skiing; useful when gloves make PTT difficult; allows operation while hands are occupied
 * **Limitations**: Not suitable for noisy environments (wind, vehicles, crowds); may trigger on background noise; battery drain higher than manual PTT; less precise than manual PTT control
 * **Recommendations**:
-  * Disable for tactical/security operations (prevents accidental transmission)
+  * Disable for professional/security operations (prevents accidental transmission)
   * Use sensitivity level 3-5 for quiet environments
   * Test thoroughly before relying on VOX in critical situations
 * **Configuration**: PRG-G15 > VOX Settings > Enable + Sensitivity Level OR Front Panel Menu > VOX
@@ -324,7 +327,9 @@ For configuration recommendations, see the
 * **Languages**: Multiple language options available (varies by region)
 * **Benefits**: Accessibility for visually impaired users; hands-free confirmation without looking at display; training aid for new operators
 * **Limitations**: Breaks stealth operations (audible announcements); battery drain increases; may annoy team members in quiet environments
-* **Recommendations**: **Disable for tactical/stealth operations**; enable for training or recreational use; useful for nighttime operations when display is hard to read
+* **Recommendations**: **Disable for professional/stealth operations**; enable
+  for training or leisure use; useful for nighttime operations when display is
+  hard to read
 * **Configuration**: PRG-G15 > Voice Prompt > Enable/Disable + Language Selection
 
 ### Compander (Audio Compression)
@@ -391,7 +396,8 @@ For configuration recommendations, see the
 * **Settings**: 30-270 seconds (or disabled)
 * **How it Works**: Automatically cuts transmission after timeout period; requires PTT release to reset
 * **Benefits**: Enforces radio discipline; prevents accidental stuck PTT (button jammed open); conserves battery; ensures fair channel access for all users
-* **Recommendations**: Set to 60-120 seconds for tactical operations; set to 180 seconds for recreational use; shorter timeout for busy channels
+* **Recommendations**: Set to 60-120 seconds for professional operations; set
+  to 180 seconds for leisure use; shorter timeout for busy channels
 * **Configuration**: Front Panel Menu > TOT (30-270 sec) OR PRG-G15 > TOT Settings
 * **Note**: Can be configured via radio menu without PRG-G15 software
 
@@ -572,7 +578,7 @@ later to access NC features (Dual Watch, Noise Cancelling TX, Only-CH Mode).
 
 ---
 
-*For configuration profiles, see [HYBRID_PROFILE.md](HYBRID_PROFILE.md)*
+*For configuration profiles, see [LEISURE_PROFILE.md](LEISURE_PROFILE.md)*
 
-*For tactical operations guide, see
-[TACTICAL_OPERATIONS.md](TACTICAL_OPERATIONS.md)*
+*For professional considerations, see
+[PROFESSIONAL_CONSIDERATIONS.md](PROFESSIONAL_CONSIDERATIONS.md)*
