@@ -56,7 +56,7 @@ the optional PRG-G15 software. These are **not** factory defaults.
 * **Short Press**: Monitor (keep default)
   * **Function**: Opens squelch to hear weak or distant signals
   * **Usage**: Check channel activity before transmitting
-  * **Tactical Benefit**: Situational awareness in critical scenarios
+  * **Professional Benefit**: Situational awareness in critical scenarios
   * **Hiking Benefit**: Monitor for group communications in weak signal areas
 
 #### PF3 Long Press: FM Radio Toggle (Custom Option)
@@ -73,7 +73,7 @@ the optional PRG-G15 software. These are **not** factory defaults.
 * **Long Press**: Scan (keep default)
   * **Function**: Monitor multiple channels for activity
   * **Scan List**: All programmed channels
-  * **Tactical Benefit**: Enhanced situational awareness
+  * **Professional Benefit**: Enhanced situational awareness
   * **Hiking Benefit**: Find active group communications
   * **Emergency Use**: Locate emergency communications
 
@@ -124,7 +124,7 @@ features (requires PRG-G15 V1.1.25+ software):
 
 * **Noise Cancelling TX** - Adaptive noise suppression during transmission
   * **Benefit**: Clearer voice transmission in noisy environments
-  * **Use Case**: Vehicles, outdoor windy conditions, tactical operations
+  * **Use Case**: Vehicles, outdoor windy conditions, professional operations
   * **Configuration**: Enable per-channel in PRG-G15 software
 * **Dual Watch (DW)** - Monitor two channels simultaneously
   * **Benefit**: Stay aware of both primary and secondary frequencies
@@ -146,7 +146,7 @@ these features. Only-CH Mode is available on all models.
 
 ## Use Case Optimization
 
-### For Tactical Operations
+### For Professional Operations
 
 * Monitor function (PF3) provides channel awareness before transmission
 * Channel scanning (PF4 long press) for situational awareness

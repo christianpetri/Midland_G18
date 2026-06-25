@@ -2,7 +2,7 @@
 
 ## After-Action Review and Equipment Maintenance
 
-Use this checklist after tactical operations to document lessons learned and
+Use this checklist after professional operations to document lessons learned and
 ensure equipment is ready for the next mission.
 
 ### Team Debrief
@@ -58,9 +58,9 @@ ensure equipment is ready for the next mission.
 * [ ] Document any configuration changes made
 * [ ] Test modifications thoroughly before next mission
 
-### Tactical Plan Updates
+### Operational Plan Updates
 
-* [ ] Review and update tactical plans based on mission outcomes
+* [ ] Review and update operational plans based on mission outcomes
 * [ ] Incorporate lessons learned into procedures
 * [ ] Update communication protocols if needed
 * [ ] Revise equipment lists based on mission needs

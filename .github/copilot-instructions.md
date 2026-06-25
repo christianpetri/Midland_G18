@@ -8,19 +8,24 @@ guides.
 
 ## Project Structure
 
-*   `Complete_Documentation.md` - Single consolidated documentation file (primary
-    reference)
-*   `docs/` - PDF manuals in German and English
+*   `README.md` - Top-level index, quick start, and key specifications
+*   `docs/guides/` - Configuration and programming guides (Leisure Profile,
+    Professional Considerations, PRG-G15 Programming)
+*   `docs/reference/` - Channel tables and NC variant features
+*   `docs/manuals/` - Official PDF manuals (EN, GER, FRA) plus searchable
+    markdown transcripts
+*   `checklists/` - Operational checklists (Pre-Mission, Mission Execution,
+    Post-Mission)
 *   `.gitignore` - Excludes personal configs, radio programming backups
     (*.g18bak, *.codeplug), and editor files
 
 ## Documentation Philosophy
 
-1.  **Single Source of Truth**: All content consolidated into
-    `Complete_Documentation.md` (2025-11-23)
+1.  **Structured Documentation**: Content is organized across `README.md`,
+    `docs/guides/`, `docs/reference/`, `docs/manuals/`, and `checklists/`
 2.  **License**: Unlicense (public domain equivalent) - use badge:
     `[![License](https://img.shields.io/badge/license-Unlicense-blue)](https://unlicense.org/)`
-3.  **Target Audience**: Radio enthusiasts, tactical teams, hikers, emergency
+3.  **Target Audience**: Radio enthusiasts, professional teams, hikers, emergency
     preparedness users
 
 ## Content Organization Pattern
@@ -29,8 +34,8 @@ The documentation follows this structure hierarchy:
 
 1.  **Frequency Information** - PMR446 compliance, frequency tables, technical
     limitations
-2.  **Hybrid Profile** - Configuration balancing tactical and recreational use
-3.  **Tactical Operations** - Checklists, protocols, security measures
+2.  **Leisure Profile** - Configuration balancing professional and leisure use
+3.  **Professional Considerations** - Checklists, protocols, security measures
 4.  **Reference Material** - Performance specs, troubleshooting, compliance info
 
 ## Markdown Style Guidelines

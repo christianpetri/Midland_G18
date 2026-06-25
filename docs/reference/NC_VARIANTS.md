@@ -33,7 +33,7 @@ recipients.
 - **Feature ID**: `id_1078` (Noise Cancelling TX)
 - **Available On**: G18-PRO NC only (not compatible with standard G18-PRO)
 - **Benefit**: Improves voice clarity in noisy environments (vehicles, industrial
-  sites, tactical operations)
+  sites, professional operations)
 
 **Configuration**: Set per-channel in PRG-G15 software
 
@@ -51,7 +51,7 @@ Channel → Optional Features → Noise Cancelling TX → [On/Off]
 - **Configuration**: `D.W.main CH` (Dual Watch main channel)
 - **Available On**: G18-PRO NC only (not compatible with standard G18-PRO)
 - **Use Cases**:
-  - Monitor primary tactical channel + secondary command channel
+  - Monitor primary operational channel + secondary command channel
   - Maintain awareness of team frequency while monitoring dispatch
   - Emergency services: Primary unit frequency + repeater monitoring
 
@@ -66,7 +66,7 @@ Channel → Optional Features → Noise Cancelling TX → [On/Off]
 ### Only-CH Mode (New)
 
 **Purpose**: Restrict radio to operate on a single selected channel only,
-preventing accidental frequency changes during tactical operations.
+preventing accidental frequency changes during professional operations.
 
 - **Feature ID**: `id_1135` (Only-CH Mode)
 - **Status**: Programmable via PRG-G15 software
@@ -80,7 +80,7 @@ Radio → Optional Menus → Only-CH Mode → [On/Off]
 
 **Use Cases**:
 
-- Tactical operations requiring strict frequency discipline
+- Professional operations requiring strict frequency discipline
 - Training scenarios where trainees should not change frequencies
 - High-security communications requiring locked channels
 
@@ -159,13 +159,13 @@ The NC variant includes 14 test mode columns and 14 test mode rows (vs. 10 colum
 **Recommended Use**:
 
 - ✅ Noisy environments (vehicles, construction, machinery)
-- ✅ Tactical operations (wind noise, rotor blades)
+- ✅ Professional operations (wind noise, rotor blades)
 - ✅ Professional communications (quality improvement)
 - ⚠️ May reduce intelligibility at extremely low signal levels
 
 ### Dual Watch Configuration
 
-**Setup Example** (Tactical Team):
+**Setup Example** (Professional Team):
 
 1. **Primary Channel**: Team frequency (446.0625 MHz)
 2. **Secondary Channel**: Command frequency (446.1875 MHz)

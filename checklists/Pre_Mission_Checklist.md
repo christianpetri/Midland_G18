@@ -1,8 +1,8 @@
 # Pre-Mission Checklist
 
-## Tactical Team Pre-Mission Verification
+## Professional Team Pre-Mission Verification
 
-Use this checklist before any tactical operation to ensure all team members are
+Use this checklist before any professional operation to ensure all team members are
 properly equipped and briefed.
 
 ### Communication Equipment

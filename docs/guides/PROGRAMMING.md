@@ -159,7 +159,7 @@ These features require PRG-G15 programming software:
   * Options: Power toggle (not recommended), Channel switch, or leave unassigned
 * [ ] **Emergency Button**: Enable via PRG-G15 (3-second hold activation)
 
-**FM Memory Workflow (Edit in PRG-G15, Recall on Radio)**:
+#### FM Memory Workflow (Edit in PRG-G15, Recall on Radio)
 
 1. In **PRG-G15**, open **Edit -> Radio**.
 2. In **Radio Memory**, set frequencies for memory slots **CH1-CH6**.
@@ -180,7 +180,7 @@ the stored entries. Channel-to-key mapping:
 
 Channel definitions cannot be edited from the handset.
 
-**FM Manual Tuning (Frequency Mode)**:
+#### FM Manual Tuning (Frequency Mode)
 
 When tuning by frequency (not **CH1-CH6** memory recall):
 
@@ -373,7 +373,7 @@ For configuration recommendations, see the
   * Battery drain significantly higher than PMR446 receive
   * Reception quality depends on antenna and location
   * Headphone recommended for extended listening
-* **Recommendations**: Enable for recreational/camping use; use sparingly to conserve battery; always return to PMR446 mode when expecting communications
+* **Recommendations**: Enable for leisure/camping use; use sparingly to conserve battery; always return to PMR446 mode when expecting communications
 * **Button Assignment**: Typically PF3 long press toggles FM Radio mode
 * **Configuration**: PRG-G15 > FM Radio > Enable/Disable
 * **Complete Step-by-Step FM Instructions**: See

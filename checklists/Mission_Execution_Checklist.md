@@ -2,7 +2,7 @@
 
 ## Active Operations Communication Protocol
 
-Use this checklist during tactical operations to maintain effective communication
+Use this checklist during professional operations to maintain effective communication
 and situational awareness.
 
 ### Communication Discipline
