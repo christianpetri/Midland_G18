@@ -33,3 +33,7 @@ radio. Use the sections below to locate the document you need quickly.
 
 Operational checklists live at the repository root in `checklists/`. See the
 project `README.md` for quick links to all documentation.
+
+---
+
+*Last updated: 2026-06-25*

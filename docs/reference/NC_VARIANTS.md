@@ -1,7 +1,5 @@
 # G18-PRO NC Variants
 
-**Last updated: 2025-11-23**
-
 Documentation for the G18-PRO NC variants with enhanced features including Noise
 Cancelling TX and Dual Watch functionality.
 
@@ -278,3 +276,5 @@ jurisdiction.
 *This document is based on analysis of PRG-G15 software V1.1.25 and official
 Midland documentation. Features and specifications subject to change without
 notice.*
+
+*Last updated: 2026-06-25*

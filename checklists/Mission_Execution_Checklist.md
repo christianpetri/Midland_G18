@@ -74,4 +74,4 @@ and situational awareness.
 
 *This checklist should be reviewed at regular intervals during the mission.*
 
-Last updated: 2025-11-23
+*Last updated: 2026-06-25*

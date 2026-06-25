@@ -215,3 +215,7 @@ Contributions welcome via pull requests or issues.
 
 This documentation is released into the public domain under the [Unlicense](UNLICENSE).
 Use freely for any purpose.
+
+---
+
+*Last updated: 2026-06-25*

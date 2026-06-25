@@ -197,3 +197,7 @@ frequency.
 - **Channels 17-99**: Use when multiple groups share the same area and you want
   to filter out other groups' conversations
 - All channels comply with PMR446 regulations (≤500mW ERP)
+
+---
+
+*Last updated: 2026-06-25*

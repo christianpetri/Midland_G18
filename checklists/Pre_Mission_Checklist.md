@@ -62,4 +62,4 @@ properly equipped and briefed.
 
 *This checklist should be completed 30-60 minutes before mission start.*
 
-Last updated: 2025-11-23
+*Last updated: 2026-06-25*

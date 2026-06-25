@@ -582,3 +582,5 @@ later to access NC features (Dual Watch, Noise Cancelling TX, Only-CH Mode).
 
 *For professional considerations, see
 [PROFESSIONAL_CONSIDERATIONS.md](PROFESSIONAL_CONSIDERATIONS.md)*
+
+*Last updated: 2026-06-25*
